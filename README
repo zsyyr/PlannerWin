@@ -1,0 +1,81 @@
+About Planner
+=============
+
+Planner is a project management tool for the Gnome desktop, for planning, 
+scheduling and tracking projects. 
+
+Planner was originally developed and maintained by the guys at Imendio, but
+is now maintained by the Planner community.  We wish to extend our thanks 
+to Imendio for all their hard work and dedication to this an many other 
+open source projects.  For more information on Imendio, please visit 
+http://www.imendio.com
+
+
+Features
+========
+
+Among the features are:
+
+    * Definition of tasks and subtasks, resources and resource groups
+    * Dependencies between tasks
+    * Display of the critical path
+    * Calendars with working/non-working time
+    * Gantt chart and resource usage overview
+    * HTML export of project plans
+    * Translated to over 50 languages
+
+
+Available Platforms
+===================
+
+Planner is available on Linux/UNIX platforms, and included in most Linux
+distributions. It's also available in a Windows version at
+http://live.gnome.org/Planner/Downloads.
+
+Resources
+=========
+
+Please check out Planner FAQ which is a list of frequently asked questions
+before posting a question to any of the mailing lists. You can read the
+archives and subscribe to the user and developer mailing lists at the Gnome
+mailing lists page (http://mail.gnome.org/mailman/listinfo). 
+Note that you must be subscribed to the list to be able to post to it.
+
+If you find a bug or missing feature, you can let us know by filing a report in
+the GNOME Bugzilla (http://bugzilla.gnome.org/enter_bug.cgi?product=planner). 
+
+See http://live.gnome.org/Planner for more information.
+
+You can download the latest tarball from the gnome ftp server:
+
+    http://ftp.gnome.org/pub/GNOME/sources/planner/
+
+
+Installation
+============
+
+Dependencies:
+
+GLIB 2.6.0
+GTK 2.14.0
+LIBGNOMECANVAS 2.10.0
+LIBGNOMEUI 2.10.0
+LIBGLADE 2.3.0
+GNOME_VFS 2.10.0
+GCONF 2.10.0
+LIBXML 2.6.27
+LIBXSLT 1.1.23
+PYGTK 2.6.0
+
+Simple install procedure:
+
+  $ tar xzvf planner-0.14.6.tar.gz 	# unpack the sources
+  $ cd planner-0.14.6			# change to the toplevel directory
+  $ ./configure				# run the `configure' script
+  $ make				# build planner
+  [ Become root if necessary ]
+  $ make install			# install planner
+
+More detailed installation instructions can be found at
+http://live.gnome.org/Planner 
+

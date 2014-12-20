@@ -1,0 +1,143 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Configuring a Planner database</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.0"><link rel="home" href="index.html" title="Planner User Guide V0.14"><link rel="up" href="index.html" title="Planner User Guide V0.14"><link rel="prev" href="ar01s04.html" title="About Planner"><link rel="next" href="bi01.html" title="Bibliography"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="sect1" title="Configuring a Planner database"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="mrp-database-config"></a>Configuring a Planner database</h2></div></div></div><div class="sect2" title="Configuring a Postgresql database for use with Planner"><div class="titlepage"><div><div><h3 class="title"><a name="postgresql-database-config"></a>Configuring a Postgresql database for use with Planner</h3></div></div></div><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+         The database support is still considered a technology preview,
+         and requires knowledge in Postgresql and database setup. You also
+         need the sources to Planner to access the database scheme file.
+     </p></div><p>Planner can store projects in a PostgreSQL database.  In order to do 
+	this, PostgreSQL must be installed and configured to accept the project
+	data.  These instructions are intended to outline the steps you should
+	take to accomplish that.  For more information about PostgreSQL 
+	administration and use, please consult the PostgreSQL documentation
+	available at <a class="ulink" href="http://www.postgresql.org" target="_top">The PostgreSQL Web
+	Site</a>.  The PostgreSQL Documentation includes instructions on 
+	installing from source tarballs.
+	RPMs are also available from this site if you prefer that method.
+    </p><p>Start by logging in as root, and copying the database.sql file to 
+	the /tmp directory. You'll use this file in the last step of the 
+	process, but its better to copy it first rather than go hunting for it 
+	later. Assuming the Planner folder is in the root directory, you would 
+	do the following:
+      </p><pre class="screen">
+	<code class="prompt">root#</code><strong class="userinput"><code> cp planner/docs/sql/database-0.13.sql /tmp</code></strong>
+      </pre><p>
+    </p><p>If you're running Red Hat and you chose to install the PostgreSQL 
+	packages along with the rest of your system, then you already have a 
+	database cluster and default user set up.  The database cluster will 
+	be /var/lib/pgsql/data, and the default user will be postgres.
+    </p><p>If there is no default user set up, then create the user postgres 
+	with the home directory /var/lib/pgsql.
+    </p><p>
+	Create a database cluster by logging into the postgres account and 
+	executing the initdb command:
+      </p><pre class="screen">
+	<code class="prompt">root#</code><strong class="userinput"><code> su - postgres</code></strong>
+	<code class="prompt">bash$</code><strong class="userinput"><code> initdb -D data</code></strong>
+      </pre><p>
+    </p><p>
+	Then start the database server:
+      </p><pre class="screen">
+	<code class="prompt">bash$</code><strong class="userinput"><code> pg_ctl -D data -l logfile start</code></strong>
+      </pre><p>
+    </p><p>
+	Create a non-default user by logging into the postgres account and 
+	executing the createuser command (use your own user name here - kurt 
+	is mine):
+      </p><pre class="screen">
+	<code class="prompt">root#</code><strong class="userinput"><code> su - postgres</code></strong>
+	<code class="prompt">bash$</code><strong class="userinput"><code> createuser</code></strong>
+	Enter name of user to add:<strong class="userinput"><code> kurt</code></strong>
+	Shall the new user be allowed to create databases? (y/n)<strong class="userinput"><code> y</code></strong>
+	Shall the new user be allowed to create more new users? (y/n)<strong class="userinput"><code> y</code></strong>
+	CREATE USER
+      </pre><p>
+	This will allow you to execute commands from your own account rather 
+	than use the default account.
+    </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+	  As of v0.13, Planner can now create the database for you when you save
+	  your project, so you no longer need to perform the remaining steps 
+	  in this section manually.
+	</p></div><p>
+	You can now create the database and group from your own account:
+      </p><pre class="screen">
+	<code class="prompt">kurt#</code><strong class="userinput"><code> createdb -U kurt plannerdb</code></strong>
+	CREATE DATABASE
+	<code class="prompt">kurt#</code><strong class="userinput"><code> echo 'create group planner with user kurt;' | psql -e -U kurt -d plannerdb</code></strong>
+	create group planner with user kurt;
+	CREATE GROUP
+      </pre><p>
+    </p><p>
+	This final command will build the tables required to store the project 
+	information in the plannerdb database.  The file 
+	<code class="filename">database.sql</code> can be found in the Planner
+	distribution subfolder <code class="filename">docs/sql</code>.
+      </p><pre class="screen">
+	<code class="prompt">kurt#</code><strong class="userinput"><code> cat /tmp/database.sql | psql -e -U kurt -d plannerdb
+	</code></strong>
+      </pre><p>
+	This line generates a lot of output.  When it's complete, you should go
+	back and review the output, checking for any error messages (look for 
+	lines that start with the word ERROR).  If you don't find any, then 
+	all the tables were created successfully.
+    </p><p>That's it.  You should now be able to save and open projects using 
+	the PostgreSQL database.
+    </p><p>
+	If you have a problem or encounter an error, you can try again removing
+	the group and database and recreating them:
+      </p><pre class="screen">
+	<code class="prompt">kurt#</code><strong class="userinput"><code> dropdb plannerdb</code></strong>
+	<code class="prompt">kurt#</code><strong class="userinput"><code> echo 'DROP GROUP planner;' | psql -e -U kurt -d plannerdb
+	</code></strong>
+      </pre><p>
+    </p></div><div class="sect2" title="Configuring a Postgresql database for remote connection"><div class="titlepage"><div><div><h3 class="title"><a name="postgresql-remote-config"></a>Configuring a Postgresql database for remote connection</h3></div></div></div><p>
+	Now that you've set up your postgresql database, you'll probably want
+	to make it available so that Planner users can access it from their 
+	machines.  This section will show you the basic steps to allow
+	connectivity from other machines in your network in a trusted 
+	environment.  In order to make your connection more secure, you should
+	read the PostgreSQL documentation, available at 
+	<a class="ulink" href="http://www.postgresql.org" target="_top">The PostgreSQL website</a>,
+	specifically the chapter entitled "Client Authentication".
+    </p><p>The first thing you'll want to do is find the configuration files
+	you'll need to modify.  The files are <code class="filename">postgresql.conf
+	</code> and <code class="filename">pg_hba.conf</code>, 
+	which according to the PostgreSQL manual should be in <code class="filename">/usr/local/pgsql/data/</code>, but on Red Hat 
+	and Fedora Core distributions they can be found in <code class="filename">/var/lib/pgsql/data/</code>.  If you have 
+	trouble finding them, use the <span class="command"><strong>locate</strong></span> command.
+      </p><pre class="screen">
+	<code class="prompt">root#</code><strong class="userinput"><code> locate postgresql.conf</code></strong>
+	/var/lib/pgsql/data/postgresql.conf
+      </pre><p>
+    </p><p>
+	Next, tell PostgreSQL that its ok to accept connections via TCP/IP.  
+	Log in as root, and modify the the <code class="filename">postgresql.conf</code>
+	file, change the 
+	tcpip_socket value to true, and uncomment the line if necessary.  
+	Then save the file.
+    </p><p>
+	Then tell PostgreSQL to allow connections from the ip addresses in
+	your local area network by adding a host line to pg_hba.conf:
+      </p><pre class="screen">
+	# TYPE  DATABASE USER   IP-ADDRESS        IP-MASK       METHOD
+	 local    all 	 all    ident                           sameuser
+<strong class="userinput"><code>	host    all   all   192.168.1.0  255.255.255.0  trust</code></strong>
+      </pre><p>
+	This line will allow all machines in the IP range of 192.168.1.1 to 
+	192.168.1.254 to access any PostgreSQL database on the server.  You 
+	may need to change the IP address and mask depending on your local
+	network.  Contact your network administrator for help in this area.
+    </p><p>
+	Finally, restart the PostgreSQL service:
+      </p><pre class="screen">
+	<code class="prompt">bash$</code><strong class="userinput"><code> pg_ctl -D data -l logfile restart</code></strong>
+      </pre><p>
+    </p><p>
+	You should now be able to open and save Planner plans from other machines
+	in your local area network by including a host name or IP address in
+	the Server box in the Planner Open from or Save to Database dialog.
+    </p><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+	Once again, you are strongly advised to consult the PostgreSQL 
+	documentation,
+	Client Authentication section to fully understand the levels of 
+	security that can be implemented to suit your needs.  The level of
+	trust that is granted in this example is not suitable for most
+	production environments.
+      </p></div></div></div></body></html>

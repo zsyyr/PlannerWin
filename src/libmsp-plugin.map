@@ -1,0 +1,1769 @@
+Archive member included because of file (symbol)
+
+planner.a(d000555.o)          planner-msp-plugin.o (planner_window_open_in_existing_or_new)
+planner.a(d000550.o)          planner-msp-plugin.o (planner_window_get_project)
+planner.a(d000289.o)          planner-msp-plugin.o (planner_conf_get_string)
+planner.a(d000292.o)          planner-msp-plugin.o (planner_conf_set_string)
+planner.a(d000552.o)          planner-msp-plugin.o (planner_window_get_ui_manager)
+planner.a(d000197.o)          planner.a(d000555.o) (_head_planner_exe)
+planner.a(d000584.o)          planner.a(d000197.o) (planner_exe_iname)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+                              planner-msp-plugin.o (gtk_window_get_type)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+                              planner-msp-plugin.o (gtk_message_dialog_new)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+                              planner-msp-plugin.o (gtk_widget_show)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+                              planner-msp-plugin.o (gtk_dialog_get_type)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+                              planner-msp-plugin.o (gtk_dialog_run)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+                              planner-msp-plugin.o (gtk_widget_destroy)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+                              planner-msp-plugin.o (gtk_file_chooser_dialog_new)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+                              planner-msp-plugin.o (gtk_file_filter_new)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+                              planner-msp-plugin.o (gtk_file_filter_set_name)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+                              planner-msp-plugin.o (gtk_file_filter_add_pattern)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+                              planner-msp-plugin.o (gtk_file_chooser_get_type)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+                              planner-msp-plugin.o (gtk_file_chooser_add_filter)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+                              planner-msp-plugin.o (gtk_file_chooser_set_current_folder_utf8)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+                              planner-msp-plugin.o (gtk_window_set_modal)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+                              planner-msp-plugin.o (gtk_widget_hide)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+                              planner-msp-plugin.o (gtk_file_chooser_get_filename_utf8)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+                              planner-msp-plugin.o (gtk_ui_manager_remove_action_group)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+                              planner-msp-plugin.o (gtk_action_group_new)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+                              planner-msp-plugin.o (gtk_action_group_set_translation_domain)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+                              planner-msp-plugin.o (gtk_action_group_add_actions)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+                              planner-msp-plugin.o (gtk_ui_manager_insert_action_group)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+                              planner-msp-plugin.o (gtk_ui_manager_add_ui_from_file_utf8)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+                              planner-msp-plugin.o (gtk_ui_manager_ensure_update)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+                              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o) (_head_libgtk_win32_2_0_0_dll)
+C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003816.o)
+                              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o) (libgtk_win32_2_0_0_dll_iname)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+                              planner-msp-plugin.o (_imp__xmlFree)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+                              planner-msp-plugin.o (xmlParseDTD)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+                              planner-msp-plugin.o (xmlValidateDtd)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+                              planner-msp-plugin.o (xmlFreeDtd)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+                              planner-msp-plugin.o (xmlSubstituteEntitiesDefault)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+                              planner-msp-plugin.o (__xmlLoadExtDtdDefaultValue)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+                              planner-msp-plugin.o (xmlParseFile)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+                              C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o) (_head_libxml2_2_dll)
+C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001657.o)
+                              C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o) (libxml2_2_dll_iname)
+C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+                              planner-msp-plugin.o (g_type_check_instance_cast)
+C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+                              planner-msp-plugin.o (g_object_unref)
+C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+                              C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o) (_head_libgobject_2_0_0_dll)
+C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000368.o)
+                              C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o) (libgobject_2_0_0_dll_iname)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+                              planner-msp-plugin.o (g_free)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+                              planner-msp-plugin.o (g_file_open_tmp_utf8)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+                              planner-msp-plugin.o (g_filename_to_uri_utf8)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+                              planner-msp-plugin.o (g_get_home_dir_utf8)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+                              planner-msp-plugin.o (g_strdup)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+                              planner-msp-plugin.o (g_path_get_dirname)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+                              planner-msp-plugin.o (g_malloc0_n)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+                              C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o) (_head_libglib_2_0_0_dll)
+C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001426.o)
+                              C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o) (libglib_2_0_0_dll_iname)
+C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+                              planner-msp-plugin.o (libintl_gettext)
+C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+                              C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o) (_head_intl_dll)
+C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000031.o)
+                              C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o) (intl_dll_iname)
+C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll)
+                              (__imp__exsltRegisterAll)
+C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll)
+                              C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll) (_IMPORT_DESCRIPTOR_libexslt)
+C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll)
+                              C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll) (_NULL_IMPORT_DESCRIPTOR)
+C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll)
+                              C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll) (libexslt_NULL_THUNK_DATA)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              (__imp__xsltParseStylesheetFile)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              (__imp__xsltFreeStylesheet)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              (__imp__xsltApplyStylesheet)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              (__imp__xsltSaveResultToFile)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll) (_IMPORT_DESCRIPTOR_libxslt)
+C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll)
+                              C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll) (libxslt_NULL_THUNK_DATA)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (__dyn_tls_init_callback)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (_pei386_runtime_relocator)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (__main)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(dllmain.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (DllMain@12)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(crtst.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o) (_CRT_MT)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o) (__mingw_TLScallback)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (__RUNTIME_PSEUDO_RELOC_LIST_END__)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o) (__CTOR_LIST__)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+                              planner-msp-plugin.o (fdopen)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+                              planner-msp-plugin.o (close)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+                              planner-msp-plugin.o (unlink)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o) (_head_libmoldname_a)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o) (_libmoldname_a_iname)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (__dllonexit)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (free)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (fflush)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (malloc)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o (_errno)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+                              planner-msp-plugin.o (memset)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+                              planner-msp-plugin.o (fclose)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o) (_imp___winmajor)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (_imp___iob)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (fwrite)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (vfprintf)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (abort)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (memcpy)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (calloc)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o) (_head_libmsvcrt_a)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o) (_libmsvcrt_a_iname)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o (GetModuleHandleA@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o (GetProcAddress@8)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o) (LoadLibraryA@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o) (FreeLibrary@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (VirtualQuery@12)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o) (VirtualProtect@16)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (TlsGetValue@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (GetLastError@0)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (DeleteCriticalSection@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (InitializeCriticalSection@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (EnterCriticalSection@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o) (LeaveCriticalSection@4)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o) (_head_libkernel32_a)
+c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o) (_libkernel32_a_iname)
+
+分配公共符号
+公共符号            大小              文件
+
+__DTOR_LIST__       0x8               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+__mingw_gMTKeyDtor  0x10              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__CTOR_LIST__       0x8               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+__mingw_gMTRemoveKeyDtor
+                    0x10              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__mingw_usemthread_dll
+                    0x10              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+
+Discarded input sections
+
+ .drectve       0x00000000       0x28 planner-msp-plugin.o
+ .debug$S       0x00000000       0x43 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+ .debug$S       0x00000000       0x43 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+ .debug$S       0x00000000       0x43 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+ .debug$S       0x00000000       0x42 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+ .debug$S       0x00000000       0x42 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.c)
+ .drectve       0x00000000       0x38 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x6b280000                __image_base__ = 0x6b280000
+                0x00000000                __dll__ = 0x0
+                0x6b280000                ___ImageBase = 0x6b280000
+                0x00001000                __section_alignment__ = 0x1000
+                0x00000200                __file_alignment__ = 0x200
+                0x00000004                __major_os_version__ = 0x4
+                0x00000000                __minor_os_version__ = 0x0
+                0x00000001                __major_image_version__ = 0x1
+                0x00000000                __minor_image_version__ = 0x0
+                0x00000004                __major_subsystem_version__ = 0x4
+                0x00000000                __minor_subsystem_version__ = 0x0
+                0x00000003                __subsystem__ = 0x3
+                0x00200000                __size_of_stack_reserve__ = 0x200000
+                0x00001000                __size_of_stack_commit__ = 0x1000
+                0x00100000                __size_of_heap_reserve__ = 0x100000
+                0x00001000                __size_of_heap_commit__ = 0x1000
+                0x00000000                __loader_flags__ = 0x0
+                0x00000000                __dll_characteristics__ = 0x0
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+LOAD planner-msp-plugin.o
+LOAD planner.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgnomecanvas-2.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libart_lgpl_2.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libglade-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libz.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libiconv.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libwsock32.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgdk-win32-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libatk-1.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgio-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libpangowin32-1.0.dll.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libgdi32.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libpangocairo-1.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgdk_pixbuf-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libpng14.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libpango-1.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libcairo.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgmodule-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libgthread-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libintl.dll.a
+LOAD ../libplanner/libplanner-1.dll
+LOAD C:/MinGW/msys/1.0/dev/lib/libexslt.lib
+LOAD C:/MinGW/msys/1.0/dev/lib/libxslt.lib
+LOAD C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libz.dll.a
+LOAD C:/MinGW/msys/1.0/dev/lib/libiconv.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libwsock32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc_eh.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingwex.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libuser32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libadvapi32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libshell32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc_eh.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingwex.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a
+LOAD c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+                0x00000308                . = SIZEOF_HEADERS
+                0x00001000                . = ALIGN (__section_alignment__)
+
+.text           0x6b281000     0x1600
+ *(.init)
+ *(.text)
+ .text          0x6b281000      0x1b0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+                0x6b281000                _onexit
+                0x6b281030                atexit
+                0x6b2810c0                DllMainCRTStartup@12
+ .text          0x6b2811b0       0xd0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+                0x6b2811b0                __gcc_register_frame
+                0x6b28123c                __gcc_deregister_frame
+ .text          0x6b281280      0x79c planner-msp-plugin.o
+                0x6b2818ee                plugin_exit
+                0x6b28193c                plugin_init
+ .text          0x6b281a1c        0x8 planner.a(d000555.o)
+                0x6b281a1c                planner_window_open_in_existing_or_new
+ .text          0x6b281a24        0x8 planner.a(d000550.o)
+                0x6b281a24                planner_window_get_project
+ .text          0x6b281a2c        0x8 planner.a(d000289.o)
+                0x6b281a2c                planner_conf_get_string
+ .text          0x6b281a34        0x8 planner.a(d000292.o)
+                0x6b281a34                planner_conf_set_string
+ .text          0x6b281a3c        0x8 planner.a(d000552.o)
+                0x6b281a3c                planner_window_get_ui_manager
+ .text          0x6b281a44        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+                0x6b281a44                gtk_window_get_type
+ .text          0x6b281a4c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+                0x6b281a4c                gtk_message_dialog_new
+ .text          0x6b281a54        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+                0x6b281a54                gtk_widget_show
+ .text          0x6b281a5c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+                0x6b281a5c                gtk_dialog_get_type
+ .text          0x6b281a64        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+                0x6b281a64                gtk_dialog_run
+ .text          0x6b281a6c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+                0x6b281a6c                gtk_widget_destroy
+ .text          0x6b281a74        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+                0x6b281a74                gtk_file_chooser_dialog_new
+ .text          0x6b281a7c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+                0x6b281a7c                gtk_file_filter_new
+ .text          0x6b281a84        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+                0x6b281a84                gtk_file_filter_set_name
+ .text          0x6b281a8c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+                0x6b281a8c                gtk_file_filter_add_pattern
+ .text          0x6b281a94        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+                0x6b281a94                gtk_file_chooser_get_type
+ .text          0x6b281a9c        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+                0x6b281a9c                gtk_file_chooser_add_filter
+ .text          0x6b281aa4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+                0x6b281aa4                gtk_file_chooser_set_current_folder_utf8
+ .text          0x6b281aac        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+                0x6b281aac                gtk_window_set_modal
+ .text          0x6b281ab4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+                0x6b281ab4                gtk_widget_hide
+ .text          0x6b281abc        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+                0x6b281abc                gtk_file_chooser_get_filename_utf8
+ .text          0x6b281ac4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+                0x6b281ac4                gtk_ui_manager_remove_action_group
+ .text          0x6b281acc        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+                0x6b281acc                gtk_action_group_new
+ .text          0x6b281ad4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+                0x6b281ad4                gtk_action_group_set_translation_domain
+ .text          0x6b281adc        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+                0x6b281adc                gtk_action_group_add_actions
+ .text          0x6b281ae4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+                0x6b281ae4                gtk_ui_manager_insert_action_group
+ .text          0x6b281aec        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+                0x6b281aec                gtk_ui_manager_add_ui_from_file_utf8
+ .text          0x6b281af4        0x8 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+                0x6b281af4                gtk_ui_manager_ensure_update
+ .text          0x6b281afc        0x0 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+ .text          0x6b281afc        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+                0x6b281afc                xmlParseDTD
+ .text          0x6b281b04        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+                0x6b281b04                xmlValidateDtd
+ .text          0x6b281b0c        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+                0x6b281b0c                xmlFreeDtd
+ .text          0x6b281b14        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+                0x6b281b14                xmlSubstituteEntitiesDefault
+ .text          0x6b281b1c        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+                0x6b281b1c                __xmlLoadExtDtdDefaultValue
+ .text          0x6b281b24        0x8 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+                0x6b281b24                xmlParseFile
+ .text          0x6b281b2c        0x8 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+                0x6b281b2c                g_type_check_instance_cast
+ .text          0x6b281b34        0x8 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+                0x6b281b34                g_object_unref
+ .text          0x6b281b3c        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+                0x6b281b3c                g_free
+ .text          0x6b281b44        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+                0x6b281b44                g_file_open_tmp_utf8
+ .text          0x6b281b4c        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+                0x6b281b4c                g_filename_to_uri_utf8
+ .text          0x6b281b54        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+                0x6b281b54                g_get_home_dir_utf8
+ .text          0x6b281b5c        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+                0x6b281b5c                g_strdup
+ .text          0x6b281b64        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+                0x6b281b64                g_path_get_dirname
+ .text          0x6b281b6c        0x8 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+                0x6b281b6c                g_malloc0_n
+ .text          0x6b281b74        0x8 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+                0x6b281b74                libintl_gettext
+ .text          0x6b281b7c        0x8 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+                0x6b281b7c                exsltRegisterAll
+ .text          0x6b281b84        0x8 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b281b84                xsltParseStylesheetFile
+ .text          0x6b281b8c        0x8 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b281b8c                xsltFreeStylesheet
+ .text          0x6b281b94        0x8 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b281b94                xsltApplyStylesheet
+ .text          0x6b281b9c        0x8 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b281b9c                xsltSaveResultToFile
+ *fill*         0x6b281ba4        0xc 00
+ .text          0x6b281bb0      0x1d0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b281bb0                __tlregdtor
+                0x6b281c00                __dyn_tls_init@12
+ .text          0x6b281d80      0x2e0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+                0x6b281eb0                _pei386_runtime_relocator
+ .text          0x6b282060       0xb0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+                0x6b282060                __do_global_dtors
+                0x6b282090                __do_global_ctors
+                0x6b2820f0                __main
+ .text          0x6b282110       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(dllmain.o)
+                0x6b282110                DllMain@12
+ .text          0x6b282120        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(crtst.o)
+ .text          0x6b282120      0x210 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+                0x6b2821a0                __mingw_TLScallback
+                0x6b282230                ___w64_mingwthr_remove_key_dtor
+                0x6b2822c0                ___w64_mingwthr_add_key_dtor
+ .text          0x6b282330        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+ .text          0x6b282330        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+ .text          0x6b282330        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+                0x6b282330                fdopen
+ .text          0x6b282338        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+                0x6b282338                close
+ .text          0x6b282340        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+                0x6b282340                unlink
+ .text          0x6b282348        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+ .text          0x6b282348        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+ .text          0x6b282348        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+                0x6b282348                __dllonexit
+ .text          0x6b282350        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+                0x6b282350                free
+ .text          0x6b282358        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+                0x6b282358                fflush
+ .text          0x6b282360        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+                0x6b282360                malloc
+ .text          0x6b282368        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+                0x6b282368                _errno
+ .text          0x6b282370        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+                0x6b282370                memset
+ .text          0x6b282378        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+                0x6b282378                fclose
+ .text          0x6b282380        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .text          0x6b282380        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .text          0x6b282380        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+                0x6b282380                fwrite
+ .text          0x6b282388        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+                0x6b282388                vfprintf
+ .text          0x6b282390        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+                0x6b282390                abort
+ .text          0x6b282398        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+                0x6b282398                memcpy
+ .text          0x6b2823a0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+                0x6b2823a0                calloc
+ .text          0x6b2823a8        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+ .text          0x6b2823a8        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+ .text          0x6b2823a8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+                0x6b2823a8                GetModuleHandleA@4
+ .text          0x6b2823b0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+                0x6b2823b0                GetProcAddress@8
+ .text          0x6b2823b8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+                0x6b2823b8                LoadLibraryA@4
+ .text          0x6b2823c0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+                0x6b2823c0                FreeLibrary@4
+ .text          0x6b2823c8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+                0x6b2823c8                VirtualQuery@12
+ .text          0x6b2823d0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+                0x6b2823d0                VirtualProtect@16
+ .text          0x6b2823d8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+                0x6b2823d8                TlsGetValue@4
+ .text          0x6b2823e0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+                0x6b2823e0                GetLastError@0
+ .text          0x6b2823e8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+                0x6b2823e8                DeleteCriticalSection@4
+ .text          0x6b2823f0        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+                0x6b2823f0                InitializeCriticalSection@4
+ .text          0x6b2823f8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+                0x6b2823f8                EnterCriticalSection@4
+ .text          0x6b282400        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+                0x6b282400                LeaveCriticalSection@4
+ .text          0x6b282408        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+ .text          0x6b282408        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+ .text          0x6b282408       0x1c c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+ .text          0x6b282424        0x8 d000001.o
+                0x6b282424                mrp_paths_get_dtd_dir
+ .text          0x6b28242c        0x8 d000002.o
+                0x6b28242c                mrp_paths_get_stylesheet_dir
+ .text          0x6b282434        0x8 d000003.o
+                0x6b282434                mrp_paths_get_ui_dir
+ .text          0x6b28243c        0x8 d000004.o
+                0x6b28243c                mrp_project_set_uri
+ *(SORT(.text$*))
+ *(.text.*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x6b282444                ___CTOR_LIST__ = .
+                0x6b282444                __CTOR_LIST__ = .
+                0x6b282444        0x4 LONG 0xffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x6b282448        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+                0x6b28244c        0x4 LONG 0x0
+                0x6b282450                ___DTOR_LIST__ = .
+                0x6b282450                __DTOR_LIST__ = .
+                0x6b282450        0x4 LONG 0xffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT(.dtors.*))
+                0x6b282454        0x4 LONG 0x0
+ *(.fini)
+ *(.gcc_exc)
+                0x6b282458                PROVIDE (etext, .)
+ *(.gcc_except_table)
+
+.data           0x6b283000      0x200
+                0x6b283000                __data_start__ = .
+ *(.data)
+ .data          0x6b283000        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+ .data          0x6b283000        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+ .data          0x6b283000        0x0 planner-msp-plugin.o
+ .data          0x6b283000        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+ .data          0x6b283000        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+ .data          0x6b283000        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(dllmain.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(crtst.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+ .data          0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+ *(.data2)
+ *(SORT(.data$*))
+ *(.jcr)
+ .jcr           0x6b283004        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+ .jcr           0x6b283004        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+                0x6b283008                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x6b284000      0x400
+ *(.rdata)
+ .rdata         0x6b284000       0x64 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+ .rdata         0x6b284064      0x124 planner-msp-plugin.o
+ .rdata         0x6b284188       0x40 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b2841c4                __dyn_tls_init_callback
+ .rdata         0x6b2841c8       0xac c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+ *(SORT(.rdata$*))
+                0x6b284274                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x6b284274                __RUNTIME_PSEUDO_RELOC_LIST__ = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x6b284274                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x6b284274                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+
+.eh_frame       0x6b285000      0x200
+ *(.eh_frame)
+ .eh_frame      0x6b285000        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+ .eh_frame      0x6b285000        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+
+.pdata
+ *(.pdata)
+
+.bss            0x6b286000      0x104
+                0x6b286000                __bss_start__ = .
+ *(.bss)
+ .bss           0x6b286000       0x20 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+ .bss           0x6b286020       0x18 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+ .bss           0x6b286038        0x0 planner-msp-plugin.o
+ .bss           0x6b286038       0x20 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b286038                _tls_index
+                0x6b28603c                mingw_initltsdrot_force
+                0x6b286040                mingw_initltsdyn_force
+                0x6b286044                mingw_initltssuo_force
+ .bss           0x6b286058       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+ .bss           0x6b286068       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+ .bss           0x6b286078        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(dllmain.o)
+ .bss           0x6b286078        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(crtst.o)
+                0x6b286078                _CRT_MT
+ *fill*         0x6b28607c        0x4 00
+ .bss           0x6b286080       0x40 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+ .bss           0x6b2860c0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+ .bss           0x6b2860c4        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+ *(COMMON)
+ COMMON         0x6b2860c4       0x30 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b2860c4                __mingw_gMTKeyDtor
+                0x6b2860d4                __mingw_gMTRemoveKeyDtor
+                0x6b2860e4                __mingw_usemthread_dll
+ COMMON         0x6b2860f4       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+                0x6b286104                __bss_end__ = .
+
+.edata          0x6b287000      0x200
+ *(.edata)
+ .edata         0x6b287000       0x7d dll stuff
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.gnu.lto_*)
+
+.idata          0x6b288000      0xe00
+ SORT(*)(.idata$2)
+ .idata$2       0x6b288000       0x14 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+                0x6b288000                _IMPORT_DESCRIPTOR_libexslt
+ .idata$2       0x6b288014       0x14 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+                0x6b288014                _head_libglib_2_0_0_dll
+ .idata$2       0x6b288028       0x14 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+                0x6b288028                _head_libgobject_2_0_0_dll
+ .idata$2       0x6b28803c       0x14 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+                0x6b28803c                _head_libgtk_win32_2_0_0_dll
+ .idata$2       0x6b288050       0x14 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+                0x6b288050                _head_intl_dll
+ .idata$2       0x6b288064       0x14 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+                0x6b288064                _head_libxml2_2_dll
+ .idata$2       0x6b288078       0x14 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+                0x6b288078                _IMPORT_DESCRIPTOR_libxslt
+ .idata$2       0x6b28808c       0x14 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+                0x6b28808c                _head_libkernel32_a
+ .idata$2       0x6b2880a0       0x14 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+                0x6b2880a0                _head_libmoldname_a
+ .idata$2       0x6b2880b4       0x14 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+                0x6b2880b4                _head_libmsvcrt_a
+ .idata$2       0x6b2880c8       0x14 d000000.o
+                0x6b2880c8                _head_libplanner_1_dll
+ .idata$2       0x6b2880dc       0x14 planner.a(d000197.o)
+                0x6b2880dc                _head_planner_exe
+ SORT(*)(.idata$3)
+ .idata$3       0x6b2880f0       0x14 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+                0x6b2880f0                _NULL_IMPORT_DESCRIPTOR
+                0x6b288104        0x4 LONG 0x0
+                0x6b288108        0x4 LONG 0x0
+                0x6b28810c        0x4 LONG 0x0
+                0x6b288110        0x4 LONG 0x0
+                0x6b288114        0x4 LONG 0x0
+ SORT(*)(.idata$4)
+ .idata$4       0x6b288118        0x0 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+ .idata$4       0x6b288118        0x4 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+ .idata$4       0x6b28811c        0x4 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+ .idata$4       0x6b288120        0x0 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+ .idata$4       0x6b288120        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+ .idata$4       0x6b288124        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+ .idata$4       0x6b288128        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+ .idata$4       0x6b28812c        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+ .idata$4       0x6b288130        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+ .idata$4       0x6b288134        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+ .idata$4       0x6b288138        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+ .idata$4       0x6b28813c        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001426.o)
+ .idata$4       0x6b288140        0x0 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+ .idata$4       0x6b288140        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+ .idata$4       0x6b288144        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+ .idata$4       0x6b288148        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000368.o)
+ .idata$4       0x6b28814c        0x0 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+ .idata$4       0x6b28814c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+ .idata$4       0x6b288150        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+ .idata$4       0x6b288154        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+ .idata$4       0x6b288158        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+ .idata$4       0x6b28815c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+ .idata$4       0x6b288160        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+ .idata$4       0x6b288164        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+ .idata$4       0x6b288168        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+ .idata$4       0x6b28816c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+ .idata$4       0x6b288170        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+ .idata$4       0x6b288174        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+ .idata$4       0x6b288178        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+ .idata$4       0x6b28817c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+ .idata$4       0x6b288180        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+ .idata$4       0x6b288184        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+ .idata$4       0x6b288188        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+ .idata$4       0x6b28818c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+ .idata$4       0x6b288190        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+ .idata$4       0x6b288194        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+ .idata$4       0x6b288198        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+ .idata$4       0x6b28819c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+ .idata$4       0x6b2881a0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+ .idata$4       0x6b2881a4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+ .idata$4       0x6b2881a8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003816.o)
+ .idata$4       0x6b2881ac        0x0 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+ .idata$4       0x6b2881ac        0x4 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+ .idata$4       0x6b2881b0        0x4 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000031.o)
+ .idata$4       0x6b2881b4        0x0 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+ .idata$4       0x6b2881b4        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+ .idata$4       0x6b2881b8        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+ .idata$4       0x6b2881bc        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+ .idata$4       0x6b2881c0        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+ .idata$4       0x6b2881c4        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+ .idata$4       0x6b2881c8        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+ .idata$4       0x6b2881cc        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+ .idata$4       0x6b2881d0        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001657.o)
+ .idata$4       0x6b2881d4        0x0 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+ .idata$4       0x6b2881d4        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$4       0x6b2881d8        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$4       0x6b2881dc        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$4       0x6b2881e0        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$4       0x6b2881e4        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.c)
+ .idata$4       0x6b2881e8        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+ .idata$4       0x6b2881e8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+ .idata$4       0x6b2881ec        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+ .idata$4       0x6b2881f0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+ .idata$4       0x6b2881f4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+ .idata$4       0x6b2881f8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+ .idata$4       0x6b2881fc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+ .idata$4       0x6b288200        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+ .idata$4       0x6b288204        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+ .idata$4       0x6b288208        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+ .idata$4       0x6b28820c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+ .idata$4       0x6b288210        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+ .idata$4       0x6b288214        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+ .idata$4       0x6b288218        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+ .idata$4       0x6b28821c        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+ .idata$4       0x6b28821c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+ .idata$4       0x6b288220        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+ .idata$4       0x6b288224        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+ .idata$4       0x6b288228        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+ .idata$4       0x6b28822c        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+ .idata$4       0x6b28822c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+ .idata$4       0x6b288230        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+ .idata$4       0x6b288234        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .idata$4       0x6b288238        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .idata$4       0x6b28823c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+ .idata$4       0x6b288240        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+ .idata$4       0x6b288244        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+ .idata$4       0x6b288248        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+ .idata$4       0x6b28824c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+ .idata$4       0x6b288250        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+ .idata$4       0x6b288254        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+ .idata$4       0x6b288258        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+ .idata$4       0x6b28825c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+ .idata$4       0x6b288260        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+ .idata$4       0x6b288264        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+ .idata$4       0x6b288268        0x0 d000000.o
+ .idata$4       0x6b288268        0x4 d000001.o
+ .idata$4       0x6b28826c        0x4 d000002.o
+ .idata$4       0x6b288270        0x4 d000003.o
+ .idata$4       0x6b288274        0x4 d000004.o
+ .idata$4       0x6b288278        0x4 d000005.o
+ .idata$4       0x6b28827c        0x0 planner.a(d000197.o)
+ .idata$4       0x6b28827c        0x4 planner.a(d000289.o)
+ .idata$4       0x6b288280        0x4 planner.a(d000292.o)
+ .idata$4       0x6b288284        0x4 planner.a(d000550.o)
+ .idata$4       0x6b288288        0x4 planner.a(d000552.o)
+ .idata$4       0x6b28828c        0x4 planner.a(d000555.o)
+ .idata$4       0x6b288290        0x4 planner.a(d000584.o)
+ SORT(*)(.idata$5)
+ .idata$5       0x6b288294        0x0 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+ .idata$5       0x6b288294        0x4 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+                0x6b288294                _imp__exsltRegisterAll
+ .idata$5       0x6b288298        0x4 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+                0x6b288298                libexslt_NULL_THUNK_DATA
+ .idata$5       0x6b28829c        0x0 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+ .idata$5       0x6b28829c        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+                0x6b28829c                _imp__g_file_open_tmp_utf8
+ .idata$5       0x6b2882a0        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+                0x6b2882a0                _imp__g_filename_to_uri_utf8
+ .idata$5       0x6b2882a4        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+                0x6b2882a4                _imp__g_free
+ .idata$5       0x6b2882a8        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+                0x6b2882a8                _imp__g_get_home_dir_utf8
+ .idata$5       0x6b2882ac        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+                0x6b2882ac                _imp__g_malloc0_n
+ .idata$5       0x6b2882b0        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+                0x6b2882b0                _imp__g_path_get_dirname
+ .idata$5       0x6b2882b4        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+                0x6b2882b4                _imp__g_strdup
+ .idata$5       0x6b2882b8        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001426.o)
+ .idata$5       0x6b2882bc        0x0 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+ .idata$5       0x6b2882bc        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+                0x6b2882bc                _imp__g_object_unref
+ .idata$5       0x6b2882c0        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+                0x6b2882c0                _imp__g_type_check_instance_cast
+ .idata$5       0x6b2882c4        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000368.o)
+ .idata$5       0x6b2882c8        0x0 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+ .idata$5       0x6b2882c8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+                0x6b2882c8                _imp__gtk_action_group_add_actions
+ .idata$5       0x6b2882cc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+                0x6b2882cc                _imp__gtk_action_group_new
+ .idata$5       0x6b2882d0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+                0x6b2882d0                _imp__gtk_action_group_set_translation_domain
+ .idata$5       0x6b2882d4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+                0x6b2882d4                _imp__gtk_dialog_get_type
+ .idata$5       0x6b2882d8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+                0x6b2882d8                _imp__gtk_dialog_run
+ .idata$5       0x6b2882dc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+                0x6b2882dc                _imp__gtk_file_chooser_add_filter
+ .idata$5       0x6b2882e0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+                0x6b2882e0                _imp__gtk_file_chooser_dialog_new
+ .idata$5       0x6b2882e4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+                0x6b2882e4                _imp__gtk_file_chooser_get_filename_utf8
+ .idata$5       0x6b2882e8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+                0x6b2882e8                _imp__gtk_file_chooser_get_type
+ .idata$5       0x6b2882ec        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+                0x6b2882ec                _imp__gtk_file_chooser_set_current_folder_utf8
+ .idata$5       0x6b2882f0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+                0x6b2882f0                _imp__gtk_file_filter_add_pattern
+ .idata$5       0x6b2882f4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+                0x6b2882f4                _imp__gtk_file_filter_new
+ .idata$5       0x6b2882f8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+                0x6b2882f8                _imp__gtk_file_filter_set_name
+ .idata$5       0x6b2882fc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+                0x6b2882fc                _imp__gtk_message_dialog_new
+ .idata$5       0x6b288300        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+                0x6b288300                _imp__gtk_ui_manager_add_ui_from_file_utf8
+ .idata$5       0x6b288304        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+                0x6b288304                _imp__gtk_ui_manager_ensure_update
+ .idata$5       0x6b288308        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+                0x6b288308                _imp__gtk_ui_manager_insert_action_group
+ .idata$5       0x6b28830c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+                0x6b28830c                _imp__gtk_ui_manager_remove_action_group
+ .idata$5       0x6b288310        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+                0x6b288310                _imp__gtk_widget_destroy
+ .idata$5       0x6b288314        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+                0x6b288314                _imp__gtk_widget_hide
+ .idata$5       0x6b288318        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+                0x6b288318                _imp__gtk_widget_show
+ .idata$5       0x6b28831c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+                0x6b28831c                _imp__gtk_window_get_type
+ .idata$5       0x6b288320        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+                0x6b288320                _imp__gtk_window_set_modal
+ .idata$5       0x6b288324        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003816.o)
+ .idata$5       0x6b288328        0x0 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+ .idata$5       0x6b288328        0x4 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+                0x6b288328                _imp__libintl_gettext
+ .idata$5       0x6b28832c        0x4 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000031.o)
+ .idata$5       0x6b288330        0x0 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+ .idata$5       0x6b288330        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+                0x6b288330                _imp____xmlLoadExtDtdDefaultValue
+ .idata$5       0x6b288334        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+                0x6b288334                _imp__xmlFree
+ .idata$5       0x6b288338        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+                0x6b288338                _imp__xmlFreeDtd
+ .idata$5       0x6b28833c        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+                0x6b28833c                _imp__xmlParseDTD
+ .idata$5       0x6b288340        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+                0x6b288340                _imp__xmlParseFile
+ .idata$5       0x6b288344        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+                0x6b288344                _imp__xmlSubstituteEntitiesDefault
+ .idata$5       0x6b288348        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+                0x6b288348                _imp__xmlValidateDtd
+ .idata$5       0x6b28834c        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001657.o)
+ .idata$5       0x6b288350        0x0 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+ .idata$5       0x6b288350        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b288350                _imp__xsltParseStylesheetFile
+ .idata$5       0x6b288354        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b288354                _imp__xsltFreeStylesheet
+ .idata$5       0x6b288358        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b288358                _imp__xsltApplyStylesheet
+ .idata$5       0x6b28835c        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                0x6b28835c                _imp__xsltSaveResultToFile
+ .idata$5       0x6b288360        0x4 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.c)
+                0x6b288360                libxslt_NULL_THUNK_DATA
+ .idata$5       0x6b288364        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+ .idata$5       0x6b288364        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+                0x6b288364                _imp__DeleteCriticalSection@4
+ .idata$5       0x6b288368        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+                0x6b288368                _imp__EnterCriticalSection@4
+ .idata$5       0x6b28836c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+                0x6b28836c                _imp__FreeLibrary@4
+ .idata$5       0x6b288370        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+                0x6b288370                _imp__GetLastError@0
+ .idata$5       0x6b288374        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+                0x6b288374                _imp__GetModuleHandleA@4
+ .idata$5       0x6b288378        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+                0x6b288378                _imp__GetProcAddress@8
+ .idata$5       0x6b28837c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+                0x6b28837c                _imp__InitializeCriticalSection@4
+ .idata$5       0x6b288380        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+                0x6b288380                _imp__LeaveCriticalSection@4
+ .idata$5       0x6b288384        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+                0x6b288384                _imp__LoadLibraryA@4
+ .idata$5       0x6b288388        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+                0x6b288388                _imp__TlsGetValue@4
+ .idata$5       0x6b28838c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+                0x6b28838c                _imp__VirtualProtect@16
+ .idata$5       0x6b288390        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+                0x6b288390                _imp__VirtualQuery@12
+ .idata$5       0x6b288394        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+ .idata$5       0x6b288398        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+ .idata$5       0x6b288398        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+                0x6b288398                _imp__close
+ .idata$5       0x6b28839c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+                0x6b28839c                _imp__fdopen
+ .idata$5       0x6b2883a0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+                0x6b2883a0                _imp__unlink
+ .idata$5       0x6b2883a4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+ .idata$5       0x6b2883a8        0x0 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+ .idata$5       0x6b2883a8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+                0x6b2883a8                _imp____dllonexit
+ .idata$5       0x6b2883ac        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+                0x6b2883ac                _imp___errno
+ .idata$5       0x6b2883b0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+                0x6b2883b0                _imp___iob
+ .idata$5       0x6b2883b4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+                0x6b2883b4                _imp___winmajor
+ .idata$5       0x6b2883b8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+                0x6b2883b8                _imp__abort
+ .idata$5       0x6b2883bc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+                0x6b2883bc                _imp__calloc
+ .idata$5       0x6b2883c0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+                0x6b2883c0                _imp__fclose
+ .idata$5       0x6b2883c4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+                0x6b2883c4                _imp__fflush
+ .idata$5       0x6b2883c8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+                0x6b2883c8                _imp__free
+ .idata$5       0x6b2883cc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+                0x6b2883cc                _imp__fwrite
+ .idata$5       0x6b2883d0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+                0x6b2883d0                _imp__malloc
+ .idata$5       0x6b2883d4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+                0x6b2883d4                _imp__memcpy
+ .idata$5       0x6b2883d8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+                0x6b2883d8                _imp__memset
+ .idata$5       0x6b2883dc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+                0x6b2883dc                _imp__vfprintf
+ .idata$5       0x6b2883e0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+ .idata$5       0x6b2883e4        0x0 d000000.o
+ .idata$5       0x6b2883e4        0x4 d000001.o
+                0x6b2883e4                _imp__mrp_paths_get_dtd_dir
+ .idata$5       0x6b2883e8        0x4 d000002.o
+                0x6b2883e8                _imp__mrp_paths_get_stylesheet_dir
+ .idata$5       0x6b2883ec        0x4 d000003.o
+                0x6b2883ec                _imp__mrp_paths_get_ui_dir
+ .idata$5       0x6b2883f0        0x4 d000004.o
+                0x6b2883f0                _imp__mrp_project_set_uri
+ .idata$5       0x6b2883f4        0x4 d000005.o
+ .idata$5       0x6b2883f8        0x0 planner.a(d000197.o)
+ .idata$5       0x6b2883f8        0x4 planner.a(d000289.o)
+                0x6b2883f8                _imp__planner_conf_get_string
+ .idata$5       0x6b2883fc        0x4 planner.a(d000292.o)
+                0x6b2883fc                _imp__planner_conf_set_string
+ .idata$5       0x6b288400        0x4 planner.a(d000550.o)
+                0x6b288400                _imp__planner_window_get_project
+ .idata$5       0x6b288404        0x4 planner.a(d000552.o)
+                0x6b288404                _imp__planner_window_get_ui_manager
+ .idata$5       0x6b288408        0x4 planner.a(d000555.o)
+                0x6b288408                _imp__planner_window_open_in_existing_or_new
+ .idata$5       0x6b28840c        0x4 planner.a(d000584.o)
+ SORT(*)(.idata$6)
+ .idata$6       0x6b288410        0xe C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+ *fill*         0x6b28841e        0x2 00
+ .idata$6       0x6b288420       0x15 C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+ *fill*         0x6b288435        0x3 00
+ .idata$6       0x6b288438       0x18 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+ .idata$6       0x6b288450       0x1c C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+ .idata$6       0x6b28846c        0xc C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+ .idata$6       0x6b288478       0x18 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+ .idata$6       0x6b288490       0x10 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+ .idata$6       0x6b2884a0       0x18 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+ .idata$6       0x6b2884b8        0xc C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+ .idata$6       0x6b2884c4       0x14 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+ .idata$6       0x6b2884d8       0x20 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+ .idata$6       0x6b2884f8       0x20 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+ .idata$6       0x6b288518       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+ .idata$6       0x6b288530       0x2c C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+ .idata$6       0x6b28855c       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+ .idata$6       0x6b288574       0x14 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+ .idata$6       0x6b288588       0x20 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+ .idata$6       0x6b2885a8       0x20 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+ .idata$6       0x6b2885c8       0x28 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+ .idata$6       0x6b2885f0       0x1c C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+ .idata$6       0x6b28860c       0x2c C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+ .idata$6       0x6b288638       0x20 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+ .idata$6       0x6b288658       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+ .idata$6       0x6b288670       0x1c C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+ .idata$6       0x6b28868c       0x1c C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+ .idata$6       0x6b2886a8       0x28 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+ .idata$6       0x6b2886d0       0x20 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+ .idata$6       0x6b2886f0       0x28 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+ .idata$6       0x6b288718       0x28 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+ .idata$6       0x6b288740       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+ .idata$6       0x6b288758       0x14 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+ .idata$6       0x6b28876c       0x14 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+ .idata$6       0x6b288780       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+ .idata$6       0x6b288798       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+ .idata$6       0x6b2887b0       0x14 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+ .idata$6       0x6b2887c4       0x20 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+ .idata$6       0x6b2887e4        0xc C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+                0x6b2887e4                _nm__xmlFree
+ .idata$6       0x6b2887f0       0x10 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+ .idata$6       0x6b288800       0x10 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+ .idata$6       0x6b288810       0x10 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+ .idata$6       0x6b288820       0x20 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+ .idata$6       0x6b288840       0x14 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+ .idata$6       0x6b288854        0xc C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+ .idata$6       0x6b288860       0x1c C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$6       0x6b28887c       0x17 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ *fill*         0x6b288893        0x1 00
+ .idata$6       0x6b288894       0x18 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ .idata$6       0x6b2888ac       0x19 C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+ *fill*         0x6b2888c5        0x1 00
+ .idata$6       0x6b2888c6       0x18 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+ .idata$6       0x6b2888de       0x18 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+ .idata$6       0x6b2888f6        0xe c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+ .idata$6       0x6b288904       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+ .idata$6       0x6b288914       0x14 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+ .idata$6       0x6b288928       0x12 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+ .idata$6       0x6b28893a       0x1c c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+ .idata$6       0x6b288956       0x18 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+ .idata$6       0x6b28896e       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+ .idata$6       0x6b28897e        0xe c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+ .idata$6       0x6b28898c       0x12 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+ .idata$6       0x6b28899e       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+ .idata$6       0x6b2889ae        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+ .idata$6       0x6b2889b8        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+ .idata$6       0x6b2889c2        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+ .idata$6       0x6b2889cc        0xe c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+ .idata$6       0x6b2889da        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+ .idata$6       0x6b2889e4        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .idata$6       0x6b2889ec        0xc c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .idata$6       0x6b2889f8        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+ .idata$6       0x6b288a00        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+ .idata$6       0x6b288a0a        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+ .idata$6       0x6b288a14        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+ .idata$6       0x6b288a1e        0x8 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+ .idata$6       0x6b288a26        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+ .idata$6       0x6b288a30        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+ .idata$6       0x6b288a3a        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+ .idata$6       0x6b288a44        0xa c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+ .idata$6       0x6b288a4e        0xc c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+ *fill*         0x6b288a5a        0x2 00
+ .idata$6       0x6b288a5c       0x18 d000001.o
+ .idata$6       0x6b288a74       0x20 d000002.o
+ .idata$6       0x6b288a94       0x18 d000003.o
+ .idata$6       0x6b288aac       0x18 d000004.o
+ .idata$6       0x6b288ac4       0x1c planner.a(d000289.o)
+ .idata$6       0x6b288ae0       0x1c planner.a(d000292.o)
+ .idata$6       0x6b288afc       0x20 planner.a(d000550.o)
+ .idata$6       0x6b288b1c       0x20 planner.a(d000552.o)
+ .idata$6       0x6b288b3c       0x2c planner.a(d000555.o)
+ SORT(*)(.idata$7)
+ .idata$7       0x6b288b68        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+ .idata$7       0x6b288b6c        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+ .idata$7       0x6b288b70        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+ .idata$7       0x6b288b74        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+ .idata$7       0x6b288b78        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+ .idata$7       0x6b288b7c        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+ .idata$7       0x6b288b80        0x4 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+ .idata$7       0x6b288b84       0x14 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001426.o)
+                0x6b288b84                libglib_2_0_0_dll_iname
+ .idata$7       0x6b288b98        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+ .idata$7       0x6b288b9c        0x4 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+ .idata$7       0x6b288ba0       0x18 C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000368.o)
+                0x6b288ba0                libgobject_2_0_0_dll_iname
+ .idata$7       0x6b288bb8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+ .idata$7       0x6b288bbc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+ .idata$7       0x6b288bc0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+ .idata$7       0x6b288bc4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+ .idata$7       0x6b288bc8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+ .idata$7       0x6b288bcc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+ .idata$7       0x6b288bd0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+ .idata$7       0x6b288bd4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+ .idata$7       0x6b288bd8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+ .idata$7       0x6b288bdc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+ .idata$7       0x6b288be0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+ .idata$7       0x6b288be4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+ .idata$7       0x6b288be8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+ .idata$7       0x6b288bec        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+ .idata$7       0x6b288bf0        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+ .idata$7       0x6b288bf4        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+ .idata$7       0x6b288bf8        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+ .idata$7       0x6b288bfc        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+ .idata$7       0x6b288c00        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+ .idata$7       0x6b288c04        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+ .idata$7       0x6b288c08        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+ .idata$7       0x6b288c0c        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+ .idata$7       0x6b288c10        0x4 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+ .idata$7       0x6b288c14       0x18 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003816.o)
+                0x6b288c14                libgtk_win32_2_0_0_dll_iname
+ .idata$7       0x6b288c2c        0x4 C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+ .idata$7       0x6b288c30        0xc C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000031.o)
+                0x6b288c30                intl_dll_iname
+ .idata$7       0x6b288c3c        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+ .idata$7       0x6b288c40        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+ .idata$7       0x6b288c44        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+ .idata$7       0x6b288c48        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+ .idata$7       0x6b288c4c        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+ .idata$7       0x6b288c50        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+ .idata$7       0x6b288c54        0x4 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+ .idata$7       0x6b288c58       0x10 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001657.o)
+                0x6b288c58                libxml2_2_dll_iname
+ .idata$7       0x6b288c68        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+ .idata$7       0x6b288c6c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+ .idata$7       0x6b288c70        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+ .idata$7       0x6b288c74        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+ .idata$7       0x6b288c78        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+ .idata$7       0x6b288c7c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+ .idata$7       0x6b288c80        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+ .idata$7       0x6b288c84        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+ .idata$7       0x6b288c88        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+ .idata$7       0x6b288c8c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+ .idata$7       0x6b288c90        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+ .idata$7       0x6b288c94        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+ .idata$7       0x6b288c98       0x10 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+                0x6b288c98                _libkernel32_a_iname
+ .idata$7       0x6b288ca8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+ .idata$7       0x6b288cac        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+ .idata$7       0x6b288cb0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+ .idata$7       0x6b288cb4        0xc c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+                0x6b288cb4                _libmoldname_a_iname
+ .idata$7       0x6b288cc0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+ .idata$7       0x6b288cc4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+ .idata$7       0x6b288cc8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+ .idata$7       0x6b288ccc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+ .idata$7       0x6b288cd0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+ .idata$7       0x6b288cd4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+ .idata$7       0x6b288cd8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+ .idata$7       0x6b288cdc        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+ .idata$7       0x6b288ce0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+ .idata$7       0x6b288ce4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+ .idata$7       0x6b288ce8        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+ .idata$7       0x6b288cec        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+ .idata$7       0x6b288cf0        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+ .idata$7       0x6b288cf4        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+ .idata$7       0x6b288cf8        0xc c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+                0x6b288cf8                _libmsvcrt_a_iname
+ .idata$7       0x6b288d04        0x4 d000001.o
+ .idata$7       0x6b288d08        0x4 d000002.o
+ .idata$7       0x6b288d0c        0x4 d000003.o
+ .idata$7       0x6b288d10        0x4 d000004.o
+ .idata$7       0x6b288d14       0x14 d000005.o
+                0x6b288d14                libplanner_1_dll_iname
+ .idata$7       0x6b288d28        0x4 planner.a(d000289.o)
+ .idata$7       0x6b288d2c        0x4 planner.a(d000292.o)
+ .idata$7       0x6b288d30        0x4 planner.a(d000550.o)
+ .idata$7       0x6b288d34        0x4 planner.a(d000552.o)
+ .idata$7       0x6b288d38        0x4 planner.a(d000555.o)
+ .idata$7       0x6b288d3c        0xc planner.a(d000584.o)
+                0x6b288d3c                planner_exe_iname
+
+.CRT            0x6b289000      0x200
+                0x6b289000                ___crt_xc_start__ = .
+ *(SORT(.CRT$XC*))
+                0x6b289000                ___crt_xc_end__ = .
+                0x6b289000                ___crt_xi_start__ = .
+ *(SORT(.CRT$XI*))
+                0x6b289000                ___crt_xi_end__ = .
+                0x6b289000                ___crt_xl_start__ = .
+ *(SORT(.CRT$XL*))
+ .CRT$XLA       0x6b289000        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b289000                __xl_a
+ .CRT$XLC       0x6b289004        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b289004                __xl_c
+ .CRT$XLD       0x6b289008        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b289008                __xl_d
+ .CRT$XLZ       0x6b28900c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b28900c                __xl_z
+                0x6b289010                ___crt_xp_start__ = .
+ *(SORT(.CRT$XP*))
+                0x6b289010                ___crt_xp_end__ = .
+                0x6b289010                ___crt_xt_start__ = .
+ *(SORT(.CRT$XT*))
+                0x6b289010                ___crt_xt_end__ = .
+ .CRT$XDA       0x6b289010        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+ .CRT$XDZ       0x6b289014        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+
+.tls            0x6b28a000      0x200
+                0x6b28a000                ___tls_start__ = .
+ *(.tls)
+ .tls           0x6b28a000       0x18 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b28a000                _tls_used
+ *(.tls$)
+ *(SORT(.tls$*))
+ .tls$AAA       0x6b28a018        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b28a018                _tls_start
+ .tls$ZZZ       0x6b28a01c        0x4 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                0x6b28a01c                _tls_end
+                0x6b28a020                ___tls_end__ = .
+
+.endjunk        0x6b28b000        0x0
+                0x6b28b000                PROVIDE (end, .)
+                0x6b28b000                PROVIDE (_end, .)
+                0x6b28b000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(SORT(.rsrc$*))
+
+.reloc          0x6b28b000      0x200
+ *(.reloc)
+ .reloc         0x6b28b000      0x1e4 dll stuff
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_ranges
+ *(.debug_ranges)
+OUTPUT(libmsp-plugin.dll pei-i386)
+LOAD d000000.o
+LOAD d000001.o
+LOAD d000002.o
+LOAD d000003.o
+LOAD d000004.o
+LOAD d000005.o
+LOAD dll stuff
+
+交叉引用表
+
+符号                                            文件
+.weak.__Jv_RegisterClasses.___gcc_register_frame  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+.weak.___deregister_frame_info.___gcc_register_frame c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+.weak.___register_frame_info.___gcc_register_frame c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+DeleteCriticalSection@4                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+DllMain@12                                        c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(dllmain.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+DllMainCRTStartup@12                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+EnterCriticalSection@4                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+FreeLibrary@4                                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+GetLastError@0                                    c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+GetModuleHandleA@4                                c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+GetProcAddress@8                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+InitializeCriticalSection@4                       c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+LeaveCriticalSection@4                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+LoadLibraryA@4                                    c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+TlsGetValue@4                                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+VirtualProtect@16                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+VirtualQuery@12                                   c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+_CRT_MT                                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(crtst.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+_IMPORT_DESCRIPTOR_libexslt                       C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+                                                  C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+_IMPORT_DESCRIPTOR_libxslt                        C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+_Jv_RegisterClasses                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+_NULL_IMPORT_DESCRIPTOR                           C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)
+                                                  C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+__CTOR_LIST__                                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+__DTOR_LIST__                                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/libgcc.a(_ctors.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+__RUNTIME_PSEUDO_RELOC_LIST_END__                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+__RUNTIME_PSEUDO_RELOC_LIST__                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc-list.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+___w64_mingwthr_add_key_dtor                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+___w64_mingwthr_remove_key_dtor                   c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+__deregister_frame_info                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+__dllonexit                                       c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+__do_global_ctors                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+__do_global_dtors                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+__dyn_tls_init@12                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__dyn_tls_init_callback                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+__gcc_deregister_frame                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+__gcc_register_frame                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+__main                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+__mingw_TLScallback                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__mingw_gMTKeyDtor                                c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__mingw_gMTRemoveKeyDtor                          c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__mingw_usemthread_dll                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__register_frame_info                             c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtbegin.o
+__tlregdtor                                       c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__xl_a                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__xl_c                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__xl_d                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__xl_z                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+__xmlLoadExtDtdDefaultValue                       C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+                                                  planner-msp-plugin.o
+_errno                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+_head_intl_dll                                    C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+_head_libglib_2_0_0_dll                           C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+_head_libgobject_2_0_0_dll                        C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+_head_libgtk_win32_2_0_0_dll                      C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+_head_libkernel32_a                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+_head_libmoldname_a                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+_head_libmsvcrt_a                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+_head_libplanner_1_dll                            d000000.o
+                                                  d000004.o
+                                                  d000003.o
+                                                  d000002.o
+                                                  d000001.o
+_head_libxml2_2_dll                               C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+_head_planner_exe                                 planner.a(d000197.o)
+                                                  planner.a(d000552.o)
+                                                  planner.a(d000292.o)
+                                                  planner.a(d000289.o)
+                                                  planner.a(d000550.o)
+                                                  planner.a(d000555.o)
+_image_base__                                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+_imp__DeleteCriticalSection@4                     c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00107.o)
+_imp__EnterCriticalSection@4                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00126.o)
+_imp__FreeLibrary@4                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00214.o)
+_imp__GetLastError@0                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00325.o)
+_imp__GetModuleHandleA@4                          c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00337.o)
+_imp__GetProcAddress@8                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00364.o)
+_imp__InitializeCriticalSection@4                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00492.o)
+_imp__LeaveCriticalSection@4                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00523.o)
+_imp__LoadLibraryA@4                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00524.o)
+_imp__TlsGetValue@4                               c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00765.o)
+_imp__VirtualProtect@16                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00798.o)
+_imp__VirtualQuery@12                             c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjes00801.o)
+_imp____dllonexit                                 c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00052.o)
+_imp____xmlLoadExtDtdDefaultValue                 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000020.o)
+_imp___errno                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00182.o)
+_imp___iob                                        c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00266.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+_imp___winmajor                                   c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00538.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+_imp__abort                                       c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+_imp__calloc                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+_imp__close                                       c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+_imp__exsltRegisterAll                            C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+_imp__fclose                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+_imp__fdopen                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+_imp__fflush                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+_imp__free                                        c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+_imp__fwrite                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+_imp__g_file_open_tmp_utf8                        C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+_imp__g_filename_to_uri_utf8                      C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+_imp__g_free                                      C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+_imp__g_get_home_dir_utf8                         C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+_imp__g_malloc0_n                                 C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+_imp__g_object_unref                              C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+_imp__g_path_get_dirname                          C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+_imp__g_strdup                                    C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+_imp__g_type_check_instance_cast                  C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+_imp__gtk_action_group_add_actions                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+_imp__gtk_action_group_new                        C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+_imp__gtk_action_group_set_translation_domain     C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+_imp__gtk_dialog_get_type                         C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+_imp__gtk_dialog_run                              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+_imp__gtk_file_chooser_add_filter                 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+_imp__gtk_file_chooser_dialog_new                 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+_imp__gtk_file_chooser_get_filename_utf8          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+_imp__gtk_file_chooser_get_type                   C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+_imp__gtk_file_chooser_set_current_folder_utf8    C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+_imp__gtk_file_filter_add_pattern                 C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+_imp__gtk_file_filter_new                         C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+_imp__gtk_file_filter_set_name                    C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+_imp__gtk_message_dialog_new                      C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+_imp__gtk_ui_manager_add_ui_from_file_utf8        C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+_imp__gtk_ui_manager_ensure_update                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+_imp__gtk_ui_manager_insert_action_group          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+_imp__gtk_ui_manager_remove_action_group          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+_imp__gtk_widget_destroy                          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+_imp__gtk_widget_hide                             C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+_imp__gtk_widget_show                             C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+_imp__gtk_window_get_type                         C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+_imp__gtk_window_set_modal                        C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+_imp__libintl_gettext                             C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+_imp__malloc                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+_imp__memcpy                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+_imp__memset                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+_imp__mrp_paths_get_dtd_dir                       d000001.o
+_imp__mrp_paths_get_stylesheet_dir                d000002.o
+_imp__mrp_paths_get_ui_dir                        d000003.o
+_imp__mrp_project_set_uri                         d000004.o
+_imp__planner_conf_get_string                     planner.a(d000289.o)
+_imp__planner_conf_set_string                     planner.a(d000292.o)
+_imp__planner_window_get_project                  planner.a(d000550.o)
+_imp__planner_window_get_ui_manager               planner.a(d000552.o)
+_imp__planner_window_open_in_existing_or_new      planner.a(d000555.o)
+_imp__unlink                                      c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+_imp__vfprintf                                    c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+_imp__xmlFree                                     C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+                                                  planner-msp-plugin.o
+_imp__xmlFreeDtd                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+_imp__xmlParseDTD                                 C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+_imp__xmlParseFile                                C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+_imp__xmlSubstituteEntitiesDefault                C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+_imp__xmlValidateDtd                              C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+_imp__xsltApplyStylesheet                         C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+_imp__xsltFreeStylesheet                          C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+_imp__xsltParseStylesheetFile                     C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+_imp__xsltSaveResultToFile                        C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+_libkernel32_a_iname                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjet.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libkernel32.a(dkjeh.o)
+_libmoldname_a_iname                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlt.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzlh.o)
+_libmsvcrt_a_iname                                c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymt.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duymh.o)
+_nm__xmlFree                                      C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000391.o)
+_onexit                                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+_pei386_runtime_relocator                         c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+_tls_end                                          c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+_tls_index                                        c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+_tls_start                                        c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+_tls_used                                         c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+abort                                             c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00583.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+atexit                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/crtend.o
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(gccmain.o)
+calloc                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00595.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+close                                             c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00006.o)
+                                                  planner-msp-plugin.o
+exsltRegisterAll                                  C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.b)
+                                                  planner-msp-plugin.o
+fclose                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00607.o)
+                                                  planner-msp-plugin.o
+fdopen                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00023.o)
+                                                  planner-msp-plugin.o
+fflush                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00610.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+free                                              c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00625.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlsthrd.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+fwrite                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00633.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+g_file_open_tmp_utf8                              C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000310.o)
+                                                  planner-msp-plugin.o
+g_filename_to_uri_utf8                            C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000318.o)
+                                                  planner-msp-plugin.o
+g_free                                            C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000324.o)
+                                                  planner-msp-plugin.o
+g_get_home_dir_utf8                               C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000332.o)
+                                                  planner-msp-plugin.o
+g_malloc0_n                                       C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000583.o)
+                                                  planner-msp-plugin.o
+g_object_unref                                    C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000118.o)
+                                                  planner-msp-plugin.o
+g_path_get_dirname                                C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000701.o)
+                                                  planner-msp-plugin.o
+g_strdup                                          C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001009.o)
+                                                  planner-msp-plugin.o
+g_type_check_instance_cast                        C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000223.o)
+                                                  planner-msp-plugin.o
+gtk_action_group_add_actions                      C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000114.o)
+                                                  planner-msp-plugin.o
+gtk_action_group_new                              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000126.o)
+                                                  planner-msp-plugin.o
+gtk_action_group_set_translation_domain           C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000130.o)
+                                                  planner-msp-plugin.o
+gtk_dialog_get_type                               C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000746.o)
+                                                  planner-msp-plugin.o
+gtk_dialog_run                                    C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000751.o)
+                                                  planner-msp-plugin.o
+gtk_file_chooser_add_filter                       C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000972.o)
+                                                  planner-msp-plugin.o
+gtk_file_chooser_dialog_new                       C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000987.o)
+                                                  planner-msp-plugin.o
+gtk_file_chooser_get_filename_utf8                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000999.o)
+                                                  planner-msp-plugin.o
+gtk_file_chooser_get_type                         C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001011.o)
+                                                  planner-msp-plugin.o
+gtk_file_chooser_set_current_folder_utf8          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001029.o)
+                                                  planner-msp-plugin.o
+gtk_file_filter_add_pattern                       C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001052.o)
+                                                  planner-msp-plugin.o
+gtk_file_filter_new                               C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001059.o)
+                                                  planner-msp-plugin.o
+gtk_file_filter_set_name                          C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001060.o)
+                                                  planner-msp-plugin.o
+gtk_message_dialog_new                            C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d001690.o)
+                                                  planner-msp-plugin.o
+gtk_ui_manager_add_ui_from_file_utf8              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003468.o)
+                                                  planner-msp-plugin.o
+gtk_ui_manager_ensure_update                      C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003470.o)
+                                                  planner-msp-plugin.o
+gtk_ui_manager_insert_action_group                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003479.o)
+                                                  planner-msp-plugin.o
+gtk_ui_manager_remove_action_group                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003483.o)
+                                                  planner-msp-plugin.o
+gtk_widget_destroy                                C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003534.o)
+                                                  planner-msp-plugin.o
+gtk_widget_hide                                   C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003600.o)
+                                                  planner-msp-plugin.o
+gtk_widget_show                                   C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003684.o)
+                                                  planner-msp-plugin.o
+gtk_window_get_type                               C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003741.o)
+                                                  planner-msp-plugin.o
+gtk_window_set_modal                              C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003795.o)
+                                                  planner-msp-plugin.o
+intl_dll_iname                                    C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000031.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000000.o)
+libglib_2_0_0_dll_iname                           C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d001426.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libglib-2.0.dll.a(d000000.o)
+libgobject_2_0_0_dll_iname                        C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000368.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgobject-2.0.dll.a(d000000.o)
+libgtk_win32_2_0_0_dll_iname                      C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d003816.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libgtk-win32-2.0.dll.a(d000000.o)
+libintl_gettext                                   C:/MinGW/msys/1.0/dev/lib/libintl.dll.a(d000017.o)
+                                                  planner-msp-plugin.o
+libplanner_1_dll_iname                            d000005.o
+                                                  d000000.o
+libxml2_2_dll_iname                               C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001657.o)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000000.o)
+malloc                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00676.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../dllcrt2.o
+memcpy                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00682.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+memset                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00684.o)
+                                                  planner-msp-plugin.o
+mingw_initltsdrot_force                           c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+mingw_initltsdyn_force                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+mingw_initltssuo_force                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(tlssup.o)
+mrp_paths_get_dtd_dir                             d000001.o
+                                                  planner-msp-plugin.o
+mrp_paths_get_stylesheet_dir                      d000002.o
+                                                  planner-msp-plugin.o
+mrp_paths_get_ui_dir                              d000003.o
+                                                  planner-msp-plugin.o
+mrp_project_set_uri                               d000004.o
+                                                  planner-msp-plugin.o
+planner_conf_get_string                           planner.a(d000289.o)
+                                                  planner-msp-plugin.o
+planner_conf_set_string                           planner.a(d000292.o)
+                                                  planner-msp-plugin.o
+planner_exe_iname                                 planner.a(d000584.o)
+                                                  planner.a(d000197.o)
+planner_window_get_project                        planner.a(d000550.o)
+                                                  planner-msp-plugin.o
+planner_window_get_ui_manager                     planner.a(d000552.o)
+                                                  planner-msp-plugin.o
+planner_window_open_in_existing_or_new            planner.a(d000555.o)
+                                                  planner-msp-plugin.o
+plugin_exit                                       planner-msp-plugin.o
+plugin_init                                       planner-msp-plugin.o
+unlink                                            c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmoldname.a(dgzls00097.o)
+                                                  planner-msp-plugin.o
+vfprintf                                          c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmsvcrt.a(duyms00748.o)
+                                                  c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../libmingw32.a(pseudo-reloc.o)
+xmlFreeDtd                                        C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000397.o)
+                                                  planner-msp-plugin.o
+xmlParseDTD                                       C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000729.o)
+                                                  planner-msp-plugin.o
+xmlParseFile                                      C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d000752.o)
+                                                  planner-msp-plugin.o
+xmlSubstituteEntitiesDefault                      C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001092.o)
+                                                  planner-msp-plugin.o
+xmlValidateDtd                                    C:/MinGW/msys/1.0/dev/lib/libxml2.dll.a(d001449.o)
+                                                  planner-msp-plugin.o
+xsltApplyStylesheet                               C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  planner-msp-plugin.o
+xsltFreeStylesheet                                C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  planner-msp-plugin.o
+xsltParseStylesheetFile                           C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  planner-msp-plugin.o
+xsltSaveResultToFile                              C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.b)
+                                                  planner-msp-plugin.o
+libexslt_NULL_THUNK_DATA                         C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.c)
+                                                  C:/MinGW/msys/1.0/dev/lib/libexslt.lib(libexslt.dll.a)
+libxslt_NULL_THUNK_DATA                          C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.c)
+                                                  C:/MinGW/msys/1.0/dev/lib/libxslt.lib(libxslt.dll.a)

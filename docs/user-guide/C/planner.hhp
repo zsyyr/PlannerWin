@@ -1,0 +1,26 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=planner.chm
+Contents file=toc.hhc
+Default Window=Main
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Index file=index.hhk
+Language=0x0409 English (UNITED STATES)
+Title=Planner User Guide V0.14
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="Planner User Guide V0.14","toc.hhc","index.hhk","index.html","index.html",,,,,0x2520,,0x603006,,,,,,,,0
+
+
+[FILES]
+index.html
+ar01s02.html
+ar01s03.html
+ar01s04.html
+ar01s05.html
+bi01.html

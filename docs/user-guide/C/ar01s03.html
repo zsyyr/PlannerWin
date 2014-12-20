@@ -1,0 +1,567 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Usage</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.0"><link rel="home" href="index.html" title="Planner User Guide V0.14"><link rel="up" href="index.html" title="Planner User Guide V0.14"><link rel="prev" href="ar01s02.html" title="Getting Started"><link rel="next" href="ar01s04.html" title="About Planner"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="sect1" title="Usage"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="mrp-usage"></a>Usage</h2></div></div></div><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-open-project" title="Open and Save Projects">Open and Save Projects</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-import-export" title="Import and Export">Import and Export</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-undo-redo" title="Undo/Redo">Undo/Redo</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-properties" title="Edit Project Properties">Project Properties</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-calendars" title="Edit Project Calendars">Calendars</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-tasks" title="Working with Tasks">Tasks</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-resources" title="Working with Resources">Resources</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-scheduling" title="Scheduling">Scheduling</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-gantt-view-using" title="Using the Gantt View">Using the Gantt View</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-print" title="Printing">Print</a></p></li><li class="listitem"><p> 
+	    <a class="xref" href="ar01s03.html#mrp-export-html" title="Export to HTML">Export to HTML</a></p></li></ul></div><p> </p><div class="sect2" title="Open and Save Projects"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-open-project"></a>Open and Save Projects</h3></div></div></div><p>To open an project, choose 
+	<span class="guimenu">File</span> &#8594; <span class="guimenuitem">Open</span>, or the <span class="guibutton">Open</span> button on the toolbar.
+	The <span class="guilabel">Open File</span> dialog is displayed. 
+	Select the Planner file that you want to open, then click 
+	<span class="guibutton">OK</span>. Planner files are stored with the extension 
+	<code class="filename">.planner</code>.
+      </p><p>
+	You can also open a file by selecting it from your file browser or 
+	desktop and dragging it into an open Planner window.
+      </p><p>To save a project, choose
+	<span class="guimenu">File</span> &#8594; <span class="guimenuitem">Save As</span> to save a new project, or an existing project under a new 
+	file name.  Choose 
+	<span class="guimenu">File</span> &#8594; <span class="guimenuitem">Save</span> to save an existing project, keeping the same file name.
+      </p><p>
+	If you try to open a project file in a format that Planner does
+	not recognize, the application displays an error
+	message.
+      </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>It is prudent to save your work periodically.
+	Planner does not currently have a recovery feature,
+	so if your editing session is interrupted by a power outage or other 
+	reason, you would lose any work done since your last 
+	<span class="guimenuitem">save</span>.</p></div></div><div class="sect2" title="Open Project From and Save To Database"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-opensave-database"></a>Open Project From and Save To Database</h3></div></div></div><p>To open an project from a database, choose 
+	<span class="guimenu">File</span> &#8594; <span class="guimenuitem">Import</span> &#8594; <span class="guimenuitem">Open From Database...</span>. The 
+	<span class="guilabel">Open from Database</span> dialog is displayed. Enter the <span class="guilabel">
+	server,	database name, user,</span> and <span class="guilabel">password</span>, 
+	and then click <span class="guibutton">OK</span>.
+	If the database is on the same machine you're running Planner on, then you
+	can leave that blank.  You can also leave the password field blank if no
+	password is required for the database user.
+      </p><p>
+	After Planner connects to the database, it will open the <span class="guilabel">Select
+	a Project</span> dialog, which displays a list of projects that are stored
+	in that database.  Select the project plan you want to open, then click
+	<span class="guibutton">OK</span>. 
+      </p><p>To save a project to a database, choose
+	<span class="guimenu">File</span> &#8594; <span class="guimenuitem">Export</span> &#8594; <span class="guimenuitem">Save to Database...</span>.  The
+	<span class="guilabel">Save to Database</span> dialog is displayed. Enter the <span class="guilabel">
+	server, database</span> name,<span class="guilabel"> user,</span> and <span class="guilabel">
+	password</span>, and then click <span class="guibutton">OK</span>.
+	If the database is on the same machine you're running Planner on, then you
+	can leave that blank.  You can also leave the password field blank if no
+	password is required for the database user.
+      </p><p>If the database you're saving your file to doesn't exist, Planner will
+	offer you the option to automatically create it.
+      </p></div><div class="sect2" title="Import and Export"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-import-export"></a>Import and Export</h3></div></div></div><p>Planner supports importing and exporting files in various formats.
+      </p><div class="sect3" title="Import Microsoft Project XML"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-import-msxml"></a>Import Microsoft Project XML</h4></div></div></div><p>The MS Project XML import is new and considered experimental at
+	  this time.  Microsoft Project version 2002 and above supports saving
+	  project files in XML format. Look for it in the MS Project
+	  <span class="guilabel">Save As</span> dialog.  To use this import feature
+	  you must first save your MS Project file in xml format as it will not
+	  work with the native .mpp files.
+	</p><p>
+	  To import the file, choose 
+	  <span class="guimenu">File</span> &#8594; <span class="guimenuitem">Import</span> &#8594; <span class="guimenuitem">MS Project XML</span>.
+	  Simply choose the file you'd like to import in the 
+	  <span class="guilabel">Import a File</span> dialog.
+	</p><p>
+	  Please be aware of the following limitations of the import:
+	  </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p><span class="emphasis"><em>Properties</em></span> - MS Project does
+	  not save this into to the xml file</p></li><li class="listitem"><p><span class="emphasis"><em>Calendars</em></span> - not imported
+	  due to differences in the way the two tools store the data</p></li><li class="listitem"><p><span class="emphasis"><em>Resource Groups</em></span> - not imported
+	  due to differences in the way the two tools store the data</p></li></ul></div><p>
+	</p></div><div class="sect3" title="Export to HTML"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-export-html"></a>Export to HTML</h4></div></div></div><p>The Export to HTML function creates a view of your project in 
+	  HTML format that you can publish on a web site, or email to 
+	  stakeholders who don't have access to Planner.  Included in the HTML 
+	  document, is a simplified Gantt chart, task list (with %complete, 
+	  start, end, work, and resource columns), and a resource allocation 
+	  table. Its an excellent way to give people easy access to 
+	  project status information.
+	</p><p>
+	  You can create the HTML page by choosing 
+	  <span class="guimenu">File</span> &#8594; <span class="guimenuitem">Export</span> &#8594; <span class="guimenuitem">HTML</span>.
+
+	</p></div><div class="sect3" title="Export to Previous Planner Format"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-export-planner-previous"></a>Export to Previous Planner Format</h4></div></div></div><p>
+	  For backward compatibility, Planner supports export to formats from
+	  previous versions.  To use this feature, choose
+	  <span class="guimenu">File</span> &#8594; <span class="guimenuitem">Export</span> &#8594; <span class="guimenuitem">Planner 0.11 format</span>.
+	</p></div></div><div class="sect2" title="Undo/Redo"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-undo-redo"></a>Undo/Redo</h3></div></div></div><p> To undo a mistake, you can either click the <span class="guibutton">Undo
+	  </span> button on the toolbar, or choose
+  	  <span class="guimenu">Edit</span> &#8594; <span class="guimenuitem">Undo</span>.
+	</p><p>To redo an action, you can either click the <span class="guibutton">Redo
+	  </span> button on the toolbar, or choose
+  	  <span class="guimenu">Edit</span> &#8594; <span class="guimenuitem">Undo</span>. 
+	  Redo puts back the change that you reversed by using the Undo option.
+	</p><div class="caution" title="Caution:" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution:</h3><p>Undo and Redo are relatively new features, and while the
+	    implementation is
+	    quite good, there are still some actions that cannot be undone.  Its
+	    always a good idea to save your work before making any modifications
+	    that you're not sure you'll want to keep.
+	  </p></div></div><div class="sect2" title="Edit Project Properties"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-properties"></a>Edit Project Properties</h3></div></div></div><p> To edit the project properties, choose
+	<span class="guimenu">Project</span> &#8594; <span class="guimenuitem">Edit Project Properties</span> 
+          .  In this dialog box you can edit the name of the project,
+          its start date, the name of the project manager, the organization
+          the project belongs to, the project phase, and the default calendar.
+	</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>The <span class="guilabel">General</span> Tab</p><p>
+	  Its important to note that the default start
+	  date for all tasks is the project start date.  Therefore, you should
+	  set the project start date before entering many tasks.  In the event
+	  that you do change the project start date after tasks have been entered,
+	  they will default to the new start date, unless they're associated with
+	  a constraint, such as a predecessor task or "start no earlier than"
+	  constraint.
+	</p><p>
+	  This dialog also allows the user to assign a phase to the project.
+	  Phases can be added by choosing 
+	  <span class="guimenu">Project</span> &#8594; <span class="guimenuitem">Edit Project Phases</span>
+	  , which provides a dialog with a simple list of project phases and buttons
+	  to <span class="guibutton">Add</span> and <span class="guibutton">Remove</span> them.
+	  Assigning a phase to the project is for information purposes only.  It has
+	  no other function at this time.
+	</p><p>
+	  Each project has a default calendar.  The default calendar applies to
+	  every resource on the project unless otherwise specified in the resource
+	  editor.  Use the select button on this dialog to change the project default
+	  calendar.  See the section <a class="xref" href="ar01s03.html#mrp-calendars" title="Edit Project Calendars">Calendars</a> for more
+	  information on calendars.
+        </p><p>
+          </p><div class="figure"><a name="project-properties"></a><p class="title"><b>Figure 7. Project Properties</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/project-properties.png" alt="Project Properties"></div></div></div></div><p><br class="figure-break">
+        </p></li><li class="listitem"><p>The <span class="guilabel">Custom properties</span> Tab</p><p>You can add custom properties to the project by clicking the <span class="guibutton">add
+	  </span> button.
+	</p><p>
+          </p><div class="figure"><a name="project-properties-custom"></a><p class="title"><b>Figure 8. Custom Project Properties</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/project-properties-custom.png" alt="Custom Project Properties"></div></div></div></div><p><br class="figure-break">
+	</p><p>In the Custom properties add dialog, you can give your new property a label, a name,
+	  description, and set the property type to either text, integer number, or floating point
+	  number.  Once you have added your new property, you can set its value by clicking in the
+	  value field of the Custom project properties dialog.
+	</p><p>
+          </p><div class="figure"><a name="project-properties-custom-add"></a><p class="title"><b>Figure 9. Custom Project Properties Add Dialog</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/project-properties-custom-add.png" alt="Custom Project Properties Add Dialog"></div></div></div></div><p><br class="figure-break">
+	</p></li></ul></div></div><div class="sect2" title="Edit Project Calendars"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-calendars"></a>Edit Project Calendars</h3></div></div></div><p> To edit the project calendars, choose
+	<span class="guimenu">Project</span> &#8594; <span class="guimenuitem">Manage Calendars</span>.  
+	  Project Calendars assist us in scheduling by defining when resources can be
+	  used in terms of working and nonworking days, and the hours they are 
+	  available on working days.  On the left is the name of the calendar being 
+	  displayed, in the center is the calendar, and on the right hand side are the 
+	  ranges of working hours for the selected day.  The default calendar shown below
+	  depicts a typical
+	  working month, with weekends grayed out, signifying that they are nonworking days.
+	</p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+	  In the Gantt chart, nonworking days are also grayed out.  Any changes 
+	  made to the project default calendar will be reflected in the Gantt Chart.
+	</p></div><p>
+	  To make changes to a calendar, select the day to be changed, and then one of the
+	  3 available radio buttons:
+	  </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p><span class="emphasis"><em>Use working time from derived calendar</em></span> - uses the
+	      parent calendar to determine the working time for that day.  See 
+	      <a class="xref" href="ar01s03.html#mrp-calendar-new" title="Creating a New Calendar">Creating a New Calendar</a> for more information.
+	    </p></li><li class="listitem"><p><span class="emphasis"><em>Set day type to:</em></span> - uses the selected day type to
+	      determine the working hours for that day.  See the section on
+	      <a class="xref" href="ar01s03.html#mrp-working-time" title="Working Time and Day Types">Working Time and Day Types</a> for more information.
+	    </p></li><li class="listitem"><p><span class="emphasis"><em>Custom working time</em></span> - defines a unique set of 
+	      working hours for a specific day.
+	    </p></li></ul></div><p>
+        </p><p>
+          </p><div class="figure"><a name="calendar"></a><p class="title"><b>Figure 10. Project Calendar Editor</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/calendar.png" alt="Project Calendar Editor"></div></div></div></div><p><br class="figure-break">
+        </p><div class="sect3" title="Creating a New Calendar"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-calendar-new"></a>Creating a New Calendar</h4></div></div></div><p>
+	    New Calendars can be added by clicking the <span class="guibutton">New</span>	    
+	    button, which will launch the New Calendar dialog.  The New Calendar Dialog
+	    contains a list of current calendars on the left, and on the right is a text
+	    box that allows you to name the new calendar.  Below the text box are three
+	    options for creating the calendar:
+	  </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p><span class="emphasis"><em>Derive from a calendar</em></span> - creates a child calendar.  
+	      The new calendar will inherit the settings 
+	      from the parent calendar selected on the left.  Any changes made to the 
+	      parent calendar will be reflected in the child calendar.  In the example below,
+	      "Americas" and "USA" are examples of child calendars.
+	    </p></li><li class="listitem"><p><span class="emphasis"><em>Copy an existing calendar</em></span> - creates a copy of the
+	      calendar selected on the left.  After the copy is made, changes made to the
+	      original calendar or its parents are
+	      not reflected in the copy.  In the example below, "USA - Copy" is an example
+	      of a calendar created using this option.
+	    </p></li><li class="listitem"><p><span class="emphasis"><em>Create an empty calendar</em></span> - creates a new calendar.  
+	      No settings are inherited or copied.  In the example below, "Empty" is a 
+	      calendar that was created using this option.
+	    </p></li></ul></div><p>
+	  </p><p>
+          </p><div class="figure"><a name="calendar-new"></a><p class="title"><b>Figure 11. New Calendar Dialog</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/calendar-new.png" alt="New Calendar Dialog"></div></div></div></div><p><br class="figure-break">
+	  </p></div><div class="sect3" title="Changing the Default Week"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-default-week"></a>Changing the Default Week</h4></div></div></div><p>
+	    The default week can be changed by clicking the <span class="guibutton">Default Week</span>	    
+	    button, which will launch the week editor dialog.  The week editor dialog
+	    contains a drop down list
+	    box that allows you to select the day of the week, and another to select the
+	    day type.  This dialog also displays the working time scheduled for the selected
+	    day type.  Be sure to click <span class="guibutton">Apply</span> before <span class="guibutton">Close
+	    </span> to save your changes.
+	  </p><p>
+          </p><div class="figure"><a name="calendar-week"></a><p class="title"><b>Figure 12. Default Week Dialog</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/calendar-week.png" alt="Default Week Dialog"></div></div></div></div><p><br class="figure-break">
+	  </p></div><div class="sect3" title="Working Time and Day Types"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-working-time"></a>Working Time and Day Types</h4></div></div></div><p>
+	    The working times for each day type can be changed by clicking the
+	    <span class="guibutton">Working Time</span>	    
+	    button, which will launch the working time dialog. 
+	    The working time dialog shows a list of the available day types on the left,
+	    and the working hours for the currently selected type on the right.  Time is
+	    entered in 24 hour format as am/pm indicators are not supported (i.e. 5:00 PM
+	    would be entered as 17:00).
+	  </p><p>
+          </p><div class="figure"><a name="calendar-working-time"></a><p class="title"><b>Figure 13. Working Time Dialog</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/calendar-working-time.png" alt="Working Time Dialog"></div></div></div></div><p><br class="figure-break">
+	  </p><p>
+	    Day types can be added by choosing
+	    <span class="guimenu">Project</span> &#8594; <span class="guimenuitem">Edit Day Types</span>
+	    This dialog displays a simple list of day types.  Use the 
+	    <span class="guibutton">Add</span> and <span class="guibutton">Remove</span> buttons
+	    to manage the list.  Note that you cannot remove the default day types
+	    "Working" and "Nonworking".
+	  </p><p>
+          </p><div class="figure"><a name="day-types"></a><p class="title"><b>Figure 14. Day Types Dialog</b></p><div class="figure-contents"><div class="screenshot"><div><img src="figures/day-types.png" alt="Day Types Dialog"></div></div></div></div><p><br class="figure-break">
+	  </p></div></div><div class="sect2" title="Working with Tasks"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-tasks"></a>Working with Tasks</h3></div></div></div><div class="sect3" title="Adding Tasks"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-task-add"></a>Adding Tasks</h4></div></div></div><p>To add a task, you can either click on the <span class="guibutton">Insert
+	  </span>button on the toolbar, or you can right click in the 
+	  task area and choose <span class="guimenuitem">Insert Task</span> from 
+	  the pop-up option box.  These options
+	  work the same in either the Gantt View or the Task View.
+	</p><p>To add several tasks quickly, choose 
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Insert Tasks</span>, which will open the insert task dialog.
+	  This dialog allows quick entry of multiple tasks.  Simply enter the
+	  name of the task and amount of work effort and press <span class="keycap"><strong>Enter
+	  </strong></span>.  The new task will be added, and the dialog will remain 
+	  open and ready for your next task entry.  Details can be added later.
+	</p><p>
+          </p><div class="figure"><a name="id600262"></a><p class="title"><b>Figure 15. Insert Task</b></p><div class="figure-contents"><div><img src="figures/task-insert.png" alt="Insert Task"></div></div></div><p><br class="figure-break">
+	</p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The <span class="guimenu">Actions</span> menu is sensitive to the view
+	    you're currently displaying, so if you want to use the insert task
+	    dialog, you need to be in either the task or Gantt view.  It's not
+	    available from the other views.
+	  </p></div></div><div class="sect3" title="Task properties"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-task-properties"></a>Task properties</h4></div></div></div><p>
+	  Some task properties can be edited directly from the Gantt tasks view: the
+	  name of the task and the work effort. 
+          You can also launch the task properties dialog from here by right clicking on
+	  a task and choosing <span class="guimenuitem">Edit task</span>.
+        </p><p>
+          In the Task View you can edit more fields for a task than in the Gantt
+          View, and is the preferred view when you start to add tasks to a project.
+	</p><p>
+          </p><div class="figure"><a name="id600314"></a><p class="title"><b>Figure 16. Task View</b></p><div class="figure-contents"><div><img src="figures/task-view.png" alt="Task View"></div></div></div><p><br class="figure-break">
+	</p><p>
+	  To edit all the task properties, right click on a task and select 
+	  <span class="guimenuitem">Edit Task</span> from the dialog
+	  that appears.  Alternatively, you can select the task and use the 
+	  main menu:
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Edit Task</span>.
+	  There are several tabs to modify the properties.
+          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>The <span class="guilabel">General</span> tab contains the following fields:
+	    </p><div class="itemizedlist"><ul class="itemizedlist" type="circle"><li class="listitem"><p><span class="guilabel">Name</span> - the name of the task</p></li><li class="listitem"><p><span class="guilabel">Milestone</span> - the milestone check box 
+		flags the task as a milestone, which disables the ability to 
+		modify the <span class="guilabel">Work, Duration, Complete, and Priority
+		</span> fields, since a milestone signifies a significant
+		event in the timeline of a project that has no duration or work
+		activity of its own.
+	      </p></li><li class="listitem"><p><span class="guilabel">Fixed duration</span> - the fixed duration 
+		option is used when the duration of a task will take a fixed 
+		amount of time regardless of the resources devoted to achieving
+		it.  For instance, the gestation period for a human baby is
+		nine months.  It cannot be sped up by adding more resources.
+	      </p><p>Choosing Fixed duration for a task will unlock the 
+		<span class="guilabel">Duration</span>
+		field and allow you to enter a value for the fixed duration.
+	      </p></li><li class="listitem"><p><span class="guilabel">Work</span> - this is the amount of effort 
+		required to complete the task
+	      </p></li><li class="listitem"><p><span class="guilabel">Duration</span> - the amount of calendar time
+		required to complete the task.  Duration is normally calculated
+		based on the amount of work and the resources assigned to the 
+		task.  The calculation also takes calendars 
+		into account.  See the section <a class="xref" href="ar01s03.html#mrp-calendars" title="Edit Project Calendars">Calendars</a>
+		for more information.
+	      </p></li><li class="listitem"><p><span class="guilabel">Schedule</span> - sets a constraint on the
+		task start date,
+		which can either be <span class="guimenuitem">As soon as possible
+		</span>, <span class="guimenuitem">No earlier than</span>, or
+		<span class="guimenuitem">On a fixed date</span></p></li><li class="listitem"><p><span class="guilabel">Complete</span> - allows tracking of the 
+		amount of work done 
+		for the task, entered as a percent of total work</p></li><li class="listitem"><p><span class="guilabel">Priority</span> - sets a priority for the 
+		task.  There is no specific functionality tied to this field at
+		the moment.  It is informational only
+	      </p></li></ul></div><p>
+                </p><div class="figure"><a name="id600486"></a><p class="title"><b>Figure 17. Task properties dialog</b></p><div class="figure-contents"><div><img src="figures/task-properties-dialog.png" alt="Task properties dialog"></div></div></div><p><br class="figure-break">
+              </p></li><li class="listitem"><p>
+                The <span class="guilabel">Resources</span> tab allows you to assign 
+		resources to a task. Remember that resources can include 
+		materials as well as people.  Click the check box in the 
+		<span class="guilabel">Assigned</span> column to allocate the resource 
+		to the current task.  Use the Units field to enter the percent
+		of the resource that is allocated to the task.
+              </p><p>
+                </p><div class="figure"><a name="id600520"></a><p class="title"><b>Figure 18. Task resources dialog</b></p><div class="figure-contents"><div><img src="figures/task-edit-resources.png" alt="Task resources dialog"></div></div></div><p><br class="figure-break">
+		The Gantt view will list the resources assigned to a task to 
+		the right of the bar.  If a short name was entered in the 
+		resource view, then the short name will display in the Gantt, 
+		otherwise, the full name will be displayed.
+              </p><p>
+                </p><div class="figure"><a name="id600536"></a><p class="title"><b>Figure 19. A resource has been assigned to a task</b></p><div class="figure-contents"><div><img src="figures/task-edit-resource-assigned.png" alt="A resource has been assigned to a task"></div></div></div><p><br class="figure-break">
+              </p></li><li class="listitem"><p>
+                You can see in the <span class="guilabel">Predecessors</span> tab the 
+		tasks that need to be finished before the task being edited can
+		start. In this example, we have three tasks.  In 
+		<a class="xref" href="ar01s03.html#predecessors" title="Figure 20. Task predecessors dialog">Figure 20. Task predecessors dialog</a>, the third task, t3, requires 
+		that t2 be complete before it can start.
+		</p><p>
+                </p><div class="figure"><a name="predecessors"></a><p class="title"><b>Figure 20. Task predecessors dialog</b></p><div class="figure-contents"><div><img src="figures/task-edit-predecessors.png" alt="Task predecessors dialog"></div></div></div><p><br class="figure-break">
+                From this dialog, you can change the task predecessor, the 
+		predecessor type, and edit the lag between the task and the 
+		predecessor.  To add or remove predecessors from this dialog 
+		by clicking the <span class="guibutton">Add</span> or 
+		<span class="guibutton">Remove</span> button.
+		</p><p>
+                When you add a new predecessor you need to choose the task 
+		predecessor, which you can select from the drop down list box. 
+		The next field is the Relationship type.  You can choose 
+		<span class="guimenuitem">Finish to Start (FS)</span>,
+		<span class="guimenuitem">Finish to Finish (FF)</span>,
+		<span class="guimenuitem">Start to Start (SS)</span>, or
+		<span class="guimenuitem">Start to Finish (SF)</span>.  Finally, you 
+		can enter a lag time for the relationship, which represents the
+		number of days after the relationship has been satisfied.  For 
+		example, if you enter a lag time of 1 in a Finish to Start 
+		relationship, it means that the current task may begin 1 day 
+		after the predecessor task has completed.  
+		</p><p>
+                </p><div class="figure"><a name="id600790"></a><p class="title"><b>Figure 21. Add predecessors dialog</b></p><div class="figure-contents"><div><img src="figures/task-edit-predecessors-add.png" alt="Add predecessors dialog"></div></div></div><p><br class="figure-break">
+		Lag time can be entered in terms of hours, days, or weeks by 
+		appending an h, d, or w to the unit value you enter.  For
+		example:
+		</p><div class="itemizedlist"><ul class="itemizedlist" type="circle"><li class="listitem"><p>3h = 3 hours</p></li><li class="listitem"><p>2d = 2 days </p></li><li class="listitem"><p>4w = 4 weeks </p></li></ul></div><p>
+		Time entered as weeks will be converted to days.
+              </p></li><li class="listitem"><p>
+                You can add notes to the task using the editor in the 
+                <span class="guilabel">Notes</span> tab.  You can also insert the current
+                time to the note using the button that appears in the dialog.
+              </p><p>
+                </p><div class="figure"><a name="id600837"></a><p class="title"><b>Figure 22. Task notes dialog</b></p><div class="figure-contents"><div><img src="figures/task-edit-note.png" alt="Task notes dialog"></div></div></div><p><br class="figure-break">
+              </p></li></ul></div><p>          
+	</p></div><div class="sect3" title="Creating subtasks"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-creating-subtasks"></a>Creating subtasks</h4></div></div></div><p>
+	  Complex tasks can be broken down into subtasks to make them easier to 
+	  Manage.  A task that is
+	  divided in subtasks is called a summary task.  The summary task's 
+	  start date and the duration can't be edited because it is calculated
+	  from the subtasks.
+	</p><p>
+	  </p><div class="figure"><a name="id600870"></a><p class="title"><b>Figure 23. A Task with subtasks</b></p><div class="figure-contents"><div><img src="figures/task-view.png" alt="A Task with subtasks"></div></div></div><p><br class="figure-break">
+	</p></div><div class="sect3" title="Task constraints"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-task-constraints"></a>Task constraints</h4></div></div></div><p>
+	  All tasks begin on the project start date by default
+	  One exception is the case where a dependency is set up.  There are 
+	  times, however, when a dependency doesn't exist, but the task must
+	  start on, or no earlier than a specific date.  You can
+	  specify these constraints in the start date dialog.
+	</p><p>
+	  </p><div class="figure"><a name="constraints"></a><p class="title"><b>Figure 24. Task constraints</b></p><div class="figure-contents"><div><img src="figures/task-constraints.png" alt="Task constraints"></div></div></div><p><br class="figure-break">
+	  You can delete the constraint for the current task using 
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Reset constraint</span>, or for all the tasks by choosing
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Reset all constraints</span>.
+	</p></div><div class="sect3" title="Custom Task Properties"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-task-custom-properties"></a>Custom Task Properties</h4></div></div></div><p>Custom properties can be added in the task view by choosing 
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Edit Custom Properties</span>.  Clicking the <span class="guibutton">Add</span>
+	  button will open the New Property dialog.
+	</p><p>
+	  </p><div class="figure"><a name="task-custom-properties"></a><p class="title"><b>Figure 25. Task constraints</b></p><div class="figure-contents"><div><img src="figures/task-custom-properties.png" alt="Task constraints"></div></div></div><p><br class="figure-break">
+	</p><p>In the New Property dialog, you can give your new property a 
+	  label, a name, description, and set the property type to either text,
+	  integer number, or floating point number.  Once you have added your 
+	  new property, it will show as a new column in the Task view.  
+	</p></div></div><div class="sect2" title="Working with Resources"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-resources"></a>Working with Resources</h3></div></div></div><div class="sect3" title="Resource Properties"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-resource-props"></a>Resource Properties</h4></div></div></div><p>
+          The Resource View in Planner shows the following properties:
+          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p><span class="emphasis"><em>Name:</em></span> the resource name
+              </p></li><li class="listitem"><p><span class="emphasis"><em>Short Name:</em></span> short name or initials to
+		be displayed in Gantt chart
+              </p></li><li class="listitem"><p><span class="emphasis"><em>Type:</em></span> Available types are 
+		<span class="guimenuitem">Work</span>
+		and <span class="guimenuitem">Material</span>.
+                Work is for human resources working in the project, and Material
+                is for non-human resources required to complete the project.
+              </p></li><li class="listitem"><p><span class="emphasis"><em>Group:</em></span> The group that the resource is 
+		assigned.  This column offers
+		a dropdown list of defined groups.  You must use the Group 
+		Editor to define groups before assigning them in the Resource
+		View.
+              </p></li><li class="listitem"><p><span class="emphasis"><em>Email:</em></span> The electronic mail to contact
+		the resource.
+              </p></li><li class="listitem"><p><span class="emphasis"><em>Cost:</em></span> the cost per hour to use this 
+		resource.  The cost is not currency specific, so in 
+		multinational projects, it is important to decide on a single
+		currency to be used for tracking cost.
+              </p></li></ul></div><p>
+	</p><p>
+	  </p><div class="figure"><a name="id601094"></a><p class="title"><b>Figure 26. Resource View</b></p><div class="figure-contents"><div><img src="figures/resource-editor.png" alt="Resource View"></div></div></div><p><br class="figure-break">
+	</p></div><div class="sect3" title="Adding Resources"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-resource-add"></a>Adding Resources</h4></div></div></div><p>Resources can be added by choosing the <span class="guibutton">Insert
+	  </span> button, or by choosing 
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Insert Resource</span>.  To add multiple resources quickly, choose 
+	  <span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Insert Resources</span>,  which
+	  will open the Insert Resource dialog.  In a fashion similar to 
+	  <a class="xref" href="ar01s03.html#mrp-task-add" title="Adding Tasks">Adding Tasks</a>, you can quickly enter multiple 
+	  resources and add detail at a later time.
+	</p><p>
+	  </p><div class="figure"><a name="id601164"></a><p class="title"><b>Figure 27. Insert Resource</b></p><div class="figure-contents"><div><img src="figures/resource-insert.png" alt="Insert Resource"></div></div></div><p><br class="figure-break">
+	</p><p>
+	  If Planner's EDS (Evolution Data Server) interface is enabled, you 
+	  can also import resources from your Evolution contacts or an LDAP 
+	  server.  The EDS interface is an experimental feature and requires
+	  <a class="ulink" href="http://www.gnome.org/projects/evolution/" target="_top">
+	  Evolution</a> version 2.0 or higher.  
+	</p><p>To import contacts using the EDS interface, choose
+	  <span class="guimenu">File</span> &#8594; <span class="guimenuitem">Import</span> &#8594; <span class="guimenuitem">EDS</span>. You will be presented with the following dialog: 
+	</p><p>
+	  </p><div class="figure"><a name="id601213"></a><p class="title"><b>Figure 28. EDS Import</b></p><div class="figure-contents"><div><img src="figures/eds1.png" alt="EDS Import"></div></div></div><p><br class="figure-break">
+	</p><p>
+	  From the <span class="guilabel">Select group</span> dropdown, select 
+	  <span class="guimenuitem">On This Computer</span> to choose from 
+	  resources in your Evolution contacts list, or  
+	  <span class="guimenuitem">On LDAP Servers</span> to choose from
+	  resources on an LDAP server.  If the resulting list is long, then you
+	  can use the search function to find the ones you want, and then 
+	  select them by checking the appropriate boxes in the import column.  
+	  You can also
+	  use <span class="guibutton">Select All</span> or <span class="guibutton">Unselect All
+	  </span> to get everyone or start fresh with no one selected.
+	</p><p>
+	  When finished, click <span class="guibutton">OK</span>, and your selections
+	  will be imported into your project resource list.
+	</p></div><div class="sect3" title="Resource Properties Dialog"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-resource-properties-general"></a>Resource Properties Dialog</h4></div></div></div><p>
+	  To edit resource properties that are not displayed in the resource 
+	  view, right click on the resource and choose <span class="guimenuitem">Edit 
+	  resource</span>.
+	  The General tab shows the same items that are in the resource view.
+	</p><p>
+	  </p><div class="figure"><a name="id601282"></a><p class="title"><b>Figure 29. Resource Properties Dialog - General Tab</b></p><div class="figure-contents"><div><img src="figures/resource-properties-general.png" alt="Resource Properties Dialog - General Tab"></div></div></div><p><br class="figure-break">
+	</p><p>
+	  The Calendar tab allows us to assign a calendar to a specific resource
+	  if the project default calendar is not appropriate.  See 
+	  <a class="xref" href="ar01s03.html#mrp-properties" title="Edit Project Properties">Project Properties</a> for more information on setting the 
+	  project default calendar.
+	  To change the calendar assigned to a resource, simply select it from 
+	  the list. If you would like to create a new calendar for this 
+	  resource, you can do so from this dialog by clicking the 
+	  <span class="guibutton">Edit calendars</span> button.  See 
+	  the section <a class="xref" href="ar01s03.html#mrp-calendars" title="Edit Project Calendars">Calendars</a> for more information.
+	</p><p>
+	  Any tasks assigned to a resource with a specific calendar will use 
+	  the calendar assigned to the resource to schedule the work to be done.
+	  Therefore, if a task appears to be scheduled for a longer than 
+	  expected time period, it is likely that the resource is using a 
+	  calendar that is different from the project default.
+	</p><p>
+	  </p><div class="figure"><a name="id601320"></a><p class="title"><b>Figure 30. Resource Properties Dialog - Calendar Tab</b></p><div class="figure-contents"><div><img src="figures/resource-properties-calendar.png" alt="Resource Properties Dialog - Calendar Tab"></div></div></div><p><br class="figure-break">
+	</p></div><div class="sect3" title="Resource Custom Properties"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-resource-custom-properties"></a>Resource Custom Properties</h4></div></div></div><p>
+	Custom Properties are available in the Resource View just as they are 
+	in the task view, and the functionality is identical.  To add custom 
+	properties to the resources, choose 
+	<span class="guimenu">Actions</span> &#8594; <span class="guimenuitem">Edit Custom Properties</span>.  See the <a class="xref" href="ar01s03.html#mrp-task-custom-properties" title="Custom Task Properties">Custom Task Properties</a> 
+	section for more information.
+      </p></div><div class="sect3" title="Group editor"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-group-editor"></a>Group editor</h4></div></div></div><p>
+          With the group editor you can define groups to be used to classify 
+	  your resources. A group has a name, a manager, telephone, email, and 
+	  an option to specify the default group.   If you specify a default 
+	  group, every new resource that you add will placed in this group.  
+	  Of course, you can still change the group to another as needed.
+	</p><p>
+	  </p><div class="figure"><a name="id601378"></a><p class="title"><b>Figure 31. Group editor</b></p><div class="figure-contents"><div><img src="figures/resource-group-editor.png" alt="Group editor"></div></div></div><p><br class="figure-break">
+	</p></div></div><div class="sect2" title="Scheduling"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-scheduling"></a>Scheduling</h3></div></div></div><p>
+	  Planner now includes an experimental simple priority based scheduling feature.  To use it, Planner 
+	  must be built with the feature enabled.  This feature will divert resources from one or more
+	  tasks to a high priority task, and reschedule the tasks accordingly.
+	</p><p>
+	  Assuming you have an existing project plan with resourced tasks, you can divert the resources 
+	  to the higher proirity task by doing the following to the higher priority task:
+	  </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>Set the task priority to 9999</p></li><li class="listitem"><p>Set the task to Start on a Fixed Date</p></li><li class="listitem"><p>Assign a resource to the task</p></li></ul></div><p>
+	</p></div><div class="sect2" title="Using the Gantt View"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-gantt-view-using"></a>Using the Gantt View</h3></div></div></div><p>The Gantt View has a number of features that are worth exploring in more detail.
+	</p><p>
+          </p><div class="figure"><a name="id601449"></a><p class="title"><b>Figure 32. Gantt View</b></p><div class="figure-contents"><div><img src="figures/gantt-view.png" alt="Gantt View"></div></div></div><p><br class="figure-break">
+	</p><div class="sect3" title="Creating Dependencies with the Gantt Chart"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-task-deps"></a>Creating Dependencies with the Gantt Chart</h4></div><div><h5 class="subtitle">Creating Dependencies with the Gantt Chart</h5></div></div></div><p>
+	  To start a task, you often have to finish other tasks first. 
+	  Dependencies can either be set up by using the <span class="guilabel">Predecessors
+	  </span> tab in the task edit dialog as shown above, or it can be 
+	  done graphically in the Gantt chart.  If you click on the
+	  bar that represents the predecessor (and hold down the mouse button), 
+	  an arrow appears.  Dragging that arrow onto the bar that represents 
+	  the dependent task will create the dependency.  The Gantt chart will
+	  immediately reflect the new relationship by shifting the dependent 
+	  task to start when the predecessor is scheduled to complete.  By 
+	  creating a dependent relationship this way, Planner always assumes a 
+	  Finish Start relationship with zero lag time.  You can modify this 
+	  relationship by opening the task edit dialog of the dependent
+	  task, and selecting the <span class="guilabel">Predecessors</span> tab.
+	</p><p>
+	  </p><div class="figure"><a name="id601490"></a><p class="title"><b>Figure 33. Creating a task dependency</b></p><div class="figure-contents"><div><img src="figures/group1-task-linking.png" alt="Creating a task dependency"></div></div></div><p><br class="figure-break">
+	  If you want to remove the dependency, you can select either
+	  of the two tasks and delete the link by clicking the <span class="guiicon">Unlink
+	  </span>icon on the toolbar, or by right clicking either task and 
+	  selecting <span class="guimenuitem">Unlink</span> from the pop up.
+	</p></div><div class="sect3" title="Highlighting the Critical Path"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-critical-path"></a>Highlighting the Critical Path</h4></div></div></div><p>To show the tasks along the critical path of the project, choose
+	  <span class="guimenu">View</span> &#8594; <span class="guimenuitem">Highlight Critical Tasks</span>.  The names of the tasks along the critical path will 
+	  be shown in red, and in the Gantt view, the task bar will also be red.
+	</p></div><div class="sect3" title="Showing Guide Lines"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-guidelines"></a>Showing Guide Lines</h4></div></div></div><p>The <span class="guimenuitem">Show Guide Lines</span> option displays 
+	   horizontal guide lines in the
+	   Gantt chart to help the user visually line up the chart bars with the
+	   task list on the left hand side of the window.  To enable the guide
+	   lines, choose
+	  <span class="guimenu">View</span> &#8594; <span class="guimenuitem">Show Guide Lines</span>.  
+	</p></div><div class="sect3" title="Displaying Nonstandard Days"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-nonstandard-days"></a>Displaying Nonstandard Days</h4></div></div></div><p>In the <a class="xref" href="ar01s03.html#mrp-calendars" title="Edit Project Calendars">Calendars</a> section, we showed how to
+	  define valid working times for the resources of our project.  In the 
+	  Gantt view, there's an easy way to show where a resource has a working
+	  or nonworking time that differs from the default calendar.  You can enable
+	  the diplay of nonstandard working days by choosing:
+	  <span class="guimenu">View</span> &#8594; <span class="guimenuitem">Nonstandard Days</span>.
+	</p><p>
+	  The visualization of nonstandard working/nonworking time is as follows:
+	  </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>Nonworking time for some resource(s) on the task during
+		a default working time is displayed as a grey bar below the gantt bar
+	    </p></li><li class="listitem"><p>Working time for some resource(s) on the task during
+		a default nonworking time is displayed as a white bar below the gantt bar
+	    </p></li><li class="listitem"><p>Nonworking time for all resources on the task during
+		a default working time is displayed as grey bars above and below the gantt bar
+	    </p></li><li class="listitem"><p>Working time for all resources on the task during
+		a default nonworking time is displayed as white bars above and below the gantt bar
+	    </p></li></ul></div><p>
+	</p></div><div class="sect3" title="Moving tasks"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-moving-tasks"></a>Moving tasks</h4></div></div></div><p>
+	  If you need to rearrange the order that tasks are displayed in the 
+	  task view, you can do so by selecting the task you want to move, and 
+	  utilizing the 
+	  <span class="guiicon">Move Up</span> and <span class="guiicon">Move Down</span> icons on
+	  the toolbar.
+        </p></div><div class="sect3" title="Zooming in the Gantt View"><div class="titlepage"><div><div><h4 class="title"><a name="mrp-zooming-gantt"></a>Zooming in the Gantt View</h4></div></div></div><p>
+          The tasks in a project can have very different durations and 
+	  sometimes you need to have a close view of the time line to see the 
+	  details of some task dependencies, but other times you need a higher
+	  level view of the whole project.
+          To support both needs, Planner has a powerful zoom system that
+          lets you zoom to fit the complete project, zoom in the view or
+          zoom out incrementally to whatever size you like (hours being the 
+	  lower limit, and years is the upper limit).
+        </p><p>
+          <span class="guibutton">Zoom to fit</span> shows the entire project duration 
+	  in the Gantt view.
+        </p><p>
+          You can use the <span class="guibutton">Zoom in</span> and 
+	  <span class="guibutton">Zoom out</span> icons to select the length of
+          time line in which you want to work.  When the view is
+	  zoomed to a detailed level, nonworking hours are shown for each day
+	  in addition to weekends.
+        </p></div></div><div class="sect2" title="Printing"><div class="titlepage"><div><div><h3 class="title"><a name="mrp-print"></a>Printing</h3></div></div></div><p>You can print your project information by choosing 
+	  <span class="guimenu">File</span> &#8594; <span class="guimenuitem">Print</span>, or clicking the 
+	  <span class="guilabel">Print</span> button on the task bar.
+	  </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The <span class="guibutton">Print Preview</span> button is available 
+	      in the Print dialog regardless of what tab is currently visible.
+	    </p></div><p>
+	</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>The Print Project dialog allows you to choose between printing 
+	    on available printers, or to a PDF file.  If you choose to print to
+	    a PDF file, your location options will change so that you can 
+	    specify the path and filename of the output file.
+	  </p><p>
+	    </p><div class="figure"><a name="id601744"></a><p class="title"><b>Figure 34. Printer Tab</b></p><div class="figure-contents"><div><img src="figures/print-project.png" alt="Printer Tab"></div></div></div><p><br class="figure-break">
+	  </p></li><li class="listitem"><p>In the Select Views tab, you can choose to print the Gantt,
+	    Task, or Resource views, or all of them.  The default is all.
+	  </p><p>
+	    </p><div class="figure"><a name="id601768"></a><p class="title"><b>Figure 35. Select Views Tab</b></p><div class="figure-contents"><div><img src="figures/print-project-selectviews.png" alt="Select Views Tab"></div></div></div><p><br class="figure-break">
+	  </p></li><li class="listitem"><p>The Paper tab allows you to specify the size, orientation, and 
+		layout of your paper prior to printing.
+	  </p><p>
+	    </p><div class="figure"><a name="id601792"></a><p class="title"><b>Figure 36. Paper Tab</b></p><div class="figure-contents"><div><img src="figures/print-project-paper.png" alt="Paper Tab"></div></div></div><p><br class="figure-break">
+	  </p></li></ul></div><p>
+	</p></div></div></body></html>

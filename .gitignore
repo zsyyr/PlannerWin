@@ -1,0 +1,5 @@
+src/*.lo
+libplanner/*.lo
+src/*.o
+libplanner/*.o
+

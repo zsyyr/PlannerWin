@@ -1,0 +1,163 @@
+<HTML>
+<HEAD><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Planner User Guide V0.14">
+<param name="Local" value="index.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Introduction">
+<param name="Local" value="index.html#mrp-introduction"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Task View">
+<param name="Local" value="index.html#mrp-task-view"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Gantt View">
+<param name="Local" value="index.html#mrp-gantt-view"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource View">
+<param name="Local" value="index.html#mrp-resource-view"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource Usage View">
+<param name="Local" value="index.html#mrp-resource-usage-view"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Getting Started">
+<param name="Local" value="ar01s02.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Starting Planner">
+<param name="Local" value="ar01s02.html#mrp-start"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="When You Start Planner">
+<param name="Local" value="ar01s02.html#mrp-when-start"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Editing Multiple Projects">
+<param name="Local" value="ar01s02.html#mrp-several-start"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Usage">
+<param name="Local" value="ar01s03.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Open and Save Projects">
+<param name="Local" value="ar01s03.html#mrp-open-project"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Open Project From and Save To Database">
+<param name="Local" value="ar01s03.html#mrp-opensave-database"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Import and Export">
+<param name="Local" value="ar01s03.html#mrp-import-export"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Import Microsoft Project XML">
+<param name="Local" value="ar01s03.html#mrp-import-msxml"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Export to HTML">
+<param name="Local" value="ar01s03.html#mrp-export-html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Export to Previous Planner Format">
+<param name="Local" value="ar01s03.html#mrp-export-planner-previous"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Undo/Redo">
+<param name="Local" value="ar01s03.html#mrp-undo-redo"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Edit Project Properties">
+<param name="Local" value="ar01s03.html#mrp-properties"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Edit Project Calendars">
+<param name="Local" value="ar01s03.html#mrp-calendars"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Creating a New Calendar">
+<param name="Local" value="ar01s03.html#mrp-calendar-new"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Changing the Default Week">
+<param name="Local" value="ar01s03.html#mrp-default-week"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Working Time and Day Types">
+<param name="Local" value="ar01s03.html#mrp-working-time"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Working with Tasks">
+<param name="Local" value="ar01s03.html#mrp-tasks"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Adding Tasks">
+<param name="Local" value="ar01s03.html#mrp-task-add"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Task properties">
+<param name="Local" value="ar01s03.html#mrp-task-properties"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Creating subtasks">
+<param name="Local" value="ar01s03.html#mrp-creating-subtasks"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Task constraints">
+<param name="Local" value="ar01s03.html#mrp-task-constraints"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Custom Task Properties">
+<param name="Local" value="ar01s03.html#mrp-task-custom-properties"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Working with Resources">
+<param name="Local" value="ar01s03.html#mrp-resources"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource Properties">
+<param name="Local" value="ar01s03.html#mrp-resource-props"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Adding Resources">
+<param name="Local" value="ar01s03.html#mrp-resource-add"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource Properties Dialog">
+<param name="Local" value="ar01s03.html#mrp-resource-properties-general"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource Custom Properties">
+<param name="Local" value="ar01s03.html#mrp-resource-custom-properties"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Group editor">
+<param name="Local" value="ar01s03.html#mrp-group-editor"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scheduling">
+<param name="Local" value="ar01s03.html#mrp-scheduling"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Gantt View">
+<param name="Local" value="ar01s03.html#mrp-gantt-view-using"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Creating Dependencies with the Gantt Chart">
+<param name="Local" value="ar01s03.html#mrp-task-deps"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Highlighting the Critical Path">
+<param name="Local" value="ar01s03.html#mrp-critical-path"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Showing Guide Lines">
+<param name="Local" value="ar01s03.html#mrp-guidelines"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Displaying Nonstandard Days">
+<param name="Local" value="ar01s03.html#mrp-nonstandard-days"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Moving tasks">
+<param name="Local" value="ar01s03.html#mrp-moving-tasks"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Zooming in the Gantt View">
+<param name="Local" value="ar01s03.html#mrp-zooming-gantt"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Printing">
+<param name="Local" value="ar01s03.html#mrp-print"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="About Planner">
+<param name="Local" value="ar01s04.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a Planner database">
+<param name="Local" value="ar01s05.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a Postgresql database for use with Planner">
+<param name="Local" value="ar01s05.html#postgresql-database-config"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a Postgresql database for remote connection">
+<param name="Local" value="ar01s05.html#postgresql-remote-config"></OBJECT></LI>
+</UL></UL></UL>
+</BODY></HTML>

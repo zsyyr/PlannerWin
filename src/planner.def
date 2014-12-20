@@ -1,0 +1,785 @@
+EXPORTS
+    Lin @1 DATA
+    _nm__g_utf8_skip @2 DATA
+    arrow @3 DATA
+    avoidCrossingLine @4
+    avoidCrossingNode @5
+    button_set_message @6
+    buttons @7 DATA
+    click @8 DATA
+    deleteRandomResourceFromTask @9
+    displayTotalDuration @10
+    display_array @11
+    displaylastduration @12
+    drawbutton @13
+    drawtask @14
+    eel_canvas_rect_get_type @15
+    findWidgetByName @16
+    firsttasklist @17 DATA
+    font1 @18 DATA
+    fontSize @19 DATA
+    getAllTasks @20
+    getArrowPosition @21
+    getDelRandomResourceFromTask @22
+    getNodeByRowCol @23
+    getPertchartNodebrothers @24
+    getPositionByTaskName @25
+    getRandomNumber @26
+    getRandomResource @27
+    getRandomTask @28
+    getSortedTaskListByView @29
+    get_all_resources_qualification_ids @30
+    get_all_task_ids @31
+    get_all_task_qualification_ids @32
+    get_all_tasks_duration @33
+    getposition @34
+    gnome_canvas_dummy_get_type @35
+    isCrossingArrow @36
+    isCrossingNode @37
+    isinlist @38
+    labelChild @39 DATA
+    layoutexp @40 DATA
+    main @41
+    mcrd_start_editing @42
+    moveDown @43
+    moveRight @44
+    mpp_project_property_get_value_string @45
+    nbCols @46 DATA
+    nbRows @47 DATA
+    pertchart @48 DATA
+    pertchart_node_get_graphnode @49
+    pertnodes @50 DATA
+    planner_application_exit @51
+    planner_application_get_recent_model @52
+    planner_application_get_type @53
+    planner_application_new @54
+    planner_application_new_window @55
+    planner_assignment_model_get_type @56
+    planner_assignment_model_new @57
+    planner_calendar_clear_marks @58
+    planner_calendar_dialog_new @59
+    planner_calendar_display_options @60
+    planner_calendar_freeze @61
+    planner_calendar_get_date @62
+    planner_calendar_get_type @63
+    planner_calendar_mark_day @64
+    planner_calendar_new @65
+    planner_calendar_select_day @66
+    planner_calendar_select_month @67
+    planner_calendar_selector_get_calendar @68
+    planner_calendar_selector_new @69
+    planner_calendar_thaw @70
+    planner_calendar_unmark_day @71
+    planner_canvas_line_get_type @72
+    planner_cell_renderer_date_get_type @73
+    planner_cell_renderer_date_new @74
+    planner_cell_renderer_list_get_type @75
+    planner_cell_renderer_list_new @76
+    planner_cell_renderer_popup_get_type @77
+    planner_cell_renderer_popup_hide @78
+    planner_cell_renderer_popup_new @79
+    planner_cmd_manager_begin_transaction @80
+    planner_cmd_manager_end_transaction @81
+    planner_cmd_manager_get_type @82
+    planner_cmd_manager_insert_and_do @83
+    planner_cmd_manager_new @84
+    planner_cmd_manager_redo @85
+    planner_cmd_manager_undo @86
+    planner_cmd_new_size @87
+    planner_column_dialog_show @88
+    planner_conf_dir_exists @89
+    planner_conf_get_bool @90
+    planner_conf_get_int @91
+    planner_conf_get_string @92
+    planner_conf_set_bool @93
+    planner_conf_set_int @94
+    planner_conf_set_string @95
+    planner_day_type_dialog_new @96
+    planner_default_week_dialog_new @97
+    planner_format_date @98
+    planner_format_duration @99
+    planner_format_duration_with_day_length @100
+    planner_format_float @101
+    planner_format_int @102
+    planner_gantt_background_get_type @103
+    planner_gantt_chart_can_zoom @104
+    planner_gantt_chart_collapse_row @105
+    planner_gantt_chart_expand_row @106
+    planner_gantt_chart_get_highlight_critical_tasks @107
+    planner_gantt_chart_get_model @108
+    planner_gantt_chart_get_nonstandard_days @109
+    planner_gantt_chart_get_show_guidelines @110
+    planner_gantt_chart_get_type @111
+    planner_gantt_chart_get_view @112
+    planner_gantt_chart_get_zoom @113
+    planner_gantt_chart_new @114
+    planner_gantt_chart_new_with_model @115
+    planner_gantt_chart_reflow_now @116
+    planner_gantt_chart_resource_clicked @117
+    planner_gantt_chart_scroll_to @118
+    planner_gantt_chart_set_highlight_critical_tasks @119
+    planner_gantt_chart_set_model @120
+    planner_gantt_chart_set_nonstandard_days @121
+    planner_gantt_chart_set_show_guidelines @122
+    planner_gantt_chart_set_view @123
+    planner_gantt_chart_status_updated @124
+    planner_gantt_chart_zoom_in @125
+    planner_gantt_chart_zoom_out @126
+    planner_gantt_chart_zoom_to_fit @127
+    planner_gantt_header_get_type @128
+    planner_gantt_header_new @129
+    planner_gantt_model_get_indent_task_target @130
+    planner_gantt_model_get_path_from_task @131
+    planner_gantt_model_get_project @132
+    planner_gantt_model_get_task @133
+    planner_gantt_model_get_task_from_path @134
+    planner_gantt_model_get_type @135
+    planner_gantt_model_new @136
+    planner_gantt_print_data_free @137
+    planner_gantt_print_data_new @138
+    planner_gantt_print_do @139
+    planner_gantt_print_get_n_pages @140
+    planner_gantt_row_get_geometry @141
+    planner_gantt_row_get_type @142
+    planner_gantt_row_init_menu @143
+    planner_gantt_row_set_visible @144
+    planner_gantt_view_get_type @145
+    planner_gantt_view_new @146
+    planner_group_dialog_new @147
+    planner_group_model_get_type @148
+    planner_group_model_new @149
+    planner_list_model_append @150
+    planner_list_model_get_data @151
+    planner_list_model_get_object @152
+    planner_list_model_get_path @153
+    planner_list_model_get_type @154
+    planner_list_model_remove @155
+    planner_list_model_set_data @156
+    planner_list_model_update @157
+    planner_marshal_OBJECT__VOID @158
+    planner_marshal_VOID__BOOLEAN_STRING @159
+    planner_marshal_VOID__DOUBLE_DOUBLE_DOUBLE_DOUBLE @160
+    planner_marshal_VOID__INT_INT_INT_INT @161
+    planner_marshal_VOID__OBJECT_BOOLEAN @162
+    planner_marshal_VOID__OBJECT_OBJECT @163
+    planner_marshal_VOID__STRING_INT_INT_INT_INT @164
+    planner_parse_duration @165
+    planner_parse_duration_with_day_length @166
+    planner_parse_float @167
+    planner_parse_int @168
+    planner_pertchart_node_get_col @169
+    planner_pertchart_node_get_nodetype @170
+    planner_pertchart_node_get_resource @171
+    planner_pertchart_node_get_row @172
+    planner_pertchart_node_get_seted @173
+    planner_pertchart_node_get_task @174
+    planner_pertchart_node_get_type @175
+    planner_pertchart_node_new @176
+    planner_pertchart_node_type_get_type @177
+    planner_pertchart_nodes_creat @178
+    planner_phase_dialog_new @179
+    planner_plugin_get_type @180
+    planner_plugin_loader_load @181
+    planner_plugin_loader_unload @182
+    planner_plugin_setup @183
+    planner_popup_button_get_type @184
+    planner_popup_button_new @185
+    planner_popup_button_popdown @186
+    planner_popup_button_popup @187
+    planner_popup_entry_get_text @188
+    planner_popup_entry_get_type @189
+    planner_popup_entry_set_text @190
+    planner_popup_get_button_width @191
+    planner_predecessor_model_get_type @192
+    planner_predecessor_model_new @193
+    planner_print_dialog_get_print_selection @194
+    planner_print_dialog_load_page_setup @195
+    planner_print_dialog_load_print_settings @196
+    planner_print_dialog_save_page_setup @197
+    planner_print_dialog_save_print_settings @198
+    planner_print_job_begin_next_page @199
+    planner_print_job_finish_page @200
+    planner_print_job_get_extents @201
+    planner_print_job_get_font @202
+    planner_print_job_get_font_height @203
+    planner_print_job_get_type @204
+    planner_print_job_lineto @205
+    planner_print_job_moveto @206
+    planner_print_job_new @207
+    planner_print_job_set_font_bold @208
+    planner_print_job_set_font_italic @209
+    planner_print_job_set_font_regular @210
+    planner_print_job_set_footer @211
+    planner_print_job_set_header @212
+    planner_print_job_set_total_pages @213
+    planner_print_job_show_clipped @214
+    planner_print_job_text @215
+    planner_prob_event_dialog_new @216
+    planner_project_properties_new @217
+    planner_property_dialog_new @218
+    planner_property_model_new @219
+    planner_qualification_dialog_new @220
+    planner_qualification_model_get_type @221
+    planner_qualification_model_new @222
+    planner_relation_arrow_get_type @223
+    planner_relation_arrow_new @224
+    planner_relation_arrow_set_predecessor @225
+    planner_relation_arrow_set_successor @226
+    planner_resource_cmd_insert @227
+    planner_resource_dialog_new @228
+    planner_resource_input_dialog_new @229
+    planner_resource_view_get_type @230
+    planner_resource_view_new @231
+    planner_review_view_get_type @232
+    planner_review_view_new @233
+    planner_scale_clamp_zoom @234
+    planner_scale_conf @235 DATA
+    planner_scale_format_time @236
+    planner_show_view_get_type @237
+    planner_show_view_new @238
+    planner_sidebar_append @239
+    planner_sidebar_get_type @240
+    planner_sidebar_new @241
+    planner_sidebar_set_active @242
+    planner_table_print_sheet_free @243
+    planner_table_print_sheet_get_n_pages @244
+    planner_table_print_sheet_new @245
+    planner_table_print_sheet_output @246
+    planner_task_cmd_insert @247
+    planner_task_cmd_link @248
+    planner_task_cmd_unlink @249
+    planner_task_date_widget_get_constraint_type @250
+    planner_task_date_widget_get_date @251
+    planner_task_date_widget_get_type @252
+    planner_task_date_widget_new @253
+    planner_task_date_widget_set_constraint_type @254
+    planner_task_date_widget_set_date @255
+    planner_task_dialog_new @256
+    planner_task_input_dialog_new @257
+    planner_task_popup_new @258
+    planner_task_popup_update_sensitivity @259
+    planner_task_tree_edit_task @260
+    planner_task_tree_get_anchor @261
+    planner_task_tree_get_highlight_critical @262
+    planner_task_tree_get_nonstandard_days @263
+    planner_task_tree_get_selected_tasks @264
+    planner_task_tree_get_type @265
+    planner_task_tree_get_window @266
+    planner_task_tree_has_relation @267
+    planner_task_tree_indent_task @268
+    planner_task_tree_insert_subtask @269
+    planner_task_tree_insert_task @270
+    planner_task_tree_insert_tasks @271
+    planner_task_tree_link_tasks @272
+    planner_task_tree_move_task_down @273
+    planner_task_tree_move_task_up @274
+    planner_task_tree_new @275
+    planner_task_tree_remove_task @276
+    planner_task_tree_reset_all_constraints @277
+    planner_task_tree_reset_constraint @278
+    planner_task_tree_select_all @279
+    planner_task_tree_set_anchor @280
+    planner_task_tree_set_highlight_critical @281
+    planner_task_tree_set_model @282
+    planner_task_tree_set_nonstandard_days @283
+    planner_task_tree_unindent_task @284
+    planner_task_tree_unlink_task @285
+    planner_task_view_get_type @286
+    planner_task_view_new @287
+    planner_usage_chart_can_zoom @288
+    planner_usage_chart_collapse_all @289
+    planner_usage_chart_collapse_row @290
+    planner_usage_chart_expand_all @291
+    planner_usage_chart_expand_row @292
+    planner_usage_chart_get_model @293
+    planner_usage_chart_get_type @294
+    planner_usage_chart_get_view @295
+    planner_usage_chart_get_zoom @296
+    planner_usage_chart_new @297
+    planner_usage_chart_new_with_model @298
+    planner_usage_chart_set_model @299
+    planner_usage_chart_set_view @300
+    planner_usage_chart_setup_root_task @301
+    planner_usage_chart_status_updated @302
+    planner_usage_chart_zoom_in @303
+    planner_usage_chart_zoom_out @304
+    planner_usage_chart_zoom_to_fit @305
+    planner_usage_model_get_assignment @306
+    planner_usage_model_get_path_from_assignment @307
+    planner_usage_model_get_path_from_resource @308
+    planner_usage_model_get_project @309
+    planner_usage_model_get_resource @310
+    planner_usage_model_get_type @311
+    planner_usage_model_is_assignment @312
+    planner_usage_model_is_resource @313
+    planner_usage_model_new @314
+    planner_usage_model_path_get_assignment @315
+    planner_usage_model_path_get_resource @316
+    planner_usage_model_path_is_assignment @317
+    planner_usage_model_path_is_resource @318
+    planner_usage_row_get_geometry @319
+    planner_usage_row_get_type @320
+    planner_usage_row_set_visible @321
+    planner_usage_tree_collapse_all @322
+    planner_usage_tree_edit_resource @323
+    planner_usage_tree_edit_task @324
+    planner_usage_tree_expand_all @325
+    planner_usage_tree_get_selected_items @326
+    planner_usage_tree_get_type @327
+    planner_usage_tree_new @328
+    planner_usage_tree_set_model @329
+    planner_usage_view_get_type @330
+    planner_usage_view_new @331
+    planner_util_show_help @332
+    planner_util_show_url @333
+    planner_view_activate @334
+    planner_view_column_load_helper @335
+    planner_view_column_save_helper @336
+    planner_view_deactivate @337
+    planner_view_get_icon @338
+    planner_view_get_label @339
+    planner_view_get_menu_label @340
+    planner_view_get_name @341
+    planner_view_get_type @342
+    planner_view_get_widget @343
+    planner_view_print @344
+    planner_view_print_cleanup @345
+    planner_view_print_get_n_pages @346
+    planner_view_print_init @347
+    planner_view_setup @348
+    planner_window_check_version @349
+    planner_window_close @350
+    planner_window_get_application @351
+    planner_window_get_cmd_manager @352
+    planner_window_get_project @353
+    planner_window_get_type @354
+    planner_window_get_ui_manager @355
+    planner_window_new @356
+    planner_window_open @357
+    planner_window_open_in_existing_or_new @358
+    planner_window_set_status @359
+    planner_window_show_calendar_dialog @360
+    planner_window_show_day_type_dialog @361
+    planner_working_time_dialog_new @362
+    print_all_qualification_names @363
+    print_all_task_names @364
+    print_dialog_create_page @365
+    print_int_list @366
+    randNumber @367
+    reDrawd @368
+    reDrawdd @369
+    readfile @370
+    redrawGertToPert @371
+    removeEmptyColumn @372
+    removeNode @373
+    select_deleteresource @374
+    select_random_task @375
+    setDelayedDuration @376
+    setPertNodesPosition @377
+    set_all_task_ids @378
+    tasksCompareByName @379
+    tasksToPertnodes @380
+    timeout_callback @381
+    write_duration @382
+    write_precedence @383
+    write_resource_odd @384
+    write_resource_sum @385
+    writefile @386
+
+IMPORTS
+
+    libplanner-1.dll.PROJECTNUMBER
+    libplanner-1.dll.durationOptimize
+    libplanner-1.dll.findAllAssignmentRresource
+    libplanner-1.dll.findMinResource
+    libplanner-1.dll.findMostOccupiedTask
+    libplanner-1.dll.findNotAssignmentRresource
+    libplanner-1.dll.findOccupiedTimeTasks
+    libplanner-1.dll.getCriticalTasks
+    libplanner-1.dll.imrp_application_get_all_file_readers
+    libplanner-1.dll.imrp_application_get_all_file_writers
+    libplanner-1.dll.imrp_application_id_remove_data
+    libplanner-1.dll.imrp_application_id_set_data
+    libplanner-1.dll.imrp_application_register_reader
+    libplanner-1.dll.imrp_application_register_writer
+    libplanner-1.dll.imrp_calendar_replace_day
+    libplanner-1.dll.imrp_day_setup_defaults
+    libplanner-1.dll.imrp_group_add_assignment
+    libplanner-1.dll.imrp_project_add_calendar_day
+    libplanner-1.dll.imrp_project_get_calendar_days
+    libplanner-1.dll.imrp_project_get_task_manager
+    libplanner-1.dll.imrp_project_property_changed
+    libplanner-1.dll.imrp_project_remove_calendar_day
+    libplanner-1.dll.imrp_project_set_groups
+    libplanner-1.dll.imrp_project_set_needs_saving
+    libplanner-1.dll.imrp_project_set_qualifications
+    libplanner-1.dll.imrp_project_set_resources
+    libplanner-1.dll.imrp_project_signal_calendar_tree_changed
+    libplanner-1.dll.imrp_project_task_inserted
+    libplanner-1.dll.imrp_project_task_moved
+    libplanner-1.dll.imrp_property_set_project
+    libplanner-1.dll.imrp_resource_add_assignment
+    libplanner-1.dll.imrp_storage_module_set_project
+    libplanner-1.dll.imrp_task_add_assignment
+    libplanner-1.dll.imrp_task_add_group_assignment
+    libplanner-1.dll.imrp_task_detach
+    libplanner-1.dll.imrp_task_get_constraint
+    libplanner-1.dll.imrp_task_get_depth
+    libplanner-1.dll.imrp_task_get_graph_node
+    libplanner-1.dll.imrp_task_get_needc
+    libplanner-1.dll.imrp_task_get_needit
+    libplanner-1.dll.imrp_task_get_node
+    libplanner-1.dll.imrp_task_get_visited
+    libplanner-1.dll.imrp_task_insert_child
+    libplanner-1.dll.imrp_task_peek_predecessors
+    libplanner-1.dll.imrp_task_peek_successors
+    libplanner-1.dll.imrp_task_reattach
+    libplanner-1.dll.imrp_task_reattach_pos
+    libplanner-1.dll.imrp_task_remove_subtree
+    libplanner-1.dll.imrp_task_set_constraint
+    libplanner-1.dll.imrp_task_set_duration
+    libplanner-1.dll.imrp_task_set_finish
+    libplanner-1.dll.imrp_task_set_latest_finish
+    libplanner-1.dll.imrp_task_set_latest_start
+    libplanner-1.dll.imrp_task_set_needc
+    libplanner-1.dll.imrp_task_set_needit
+    libplanner-1.dll.imrp_task_set_start
+    libplanner-1.dll.imrp_task_set_visited
+    libplanner-1.dll.imrp_task_set_work
+    libplanner-1.dll.imrp_task_set_work_start
+    libplanner-1.dll.imrp_time_init
+    libplanner-1.dll.isNotOccupiedTask
+    libplanner-1.dll.isOccupiedTimeTasks
+    libplanner-1.dll.mrp_application_get_type
+    libplanner-1.dll.mrp_application_get_unique_id
+    libplanner-1.dll.mrp_application_id_get_data
+    libplanner-1.dll.mrp_application_new
+    libplanner-1.dll.mrp_assignment_get_resource
+    libplanner-1.dll.mrp_assignment_get_task
+    libplanner-1.dll.mrp_assignment_get_type
+    libplanner-1.dll.mrp_assignment_get_units
+    libplanner-1.dll.mrp_assignment_new
+    libplanner-1.dll.mrp_calendar_add
+    libplanner-1.dll.mrp_calendar_copy
+    libplanner-1.dll.mrp_calendar_day_get_intervals
+    libplanner-1.dll.mrp_calendar_day_get_total_work
+    libplanner-1.dll.mrp_calendar_day_set_intervals
+    libplanner-1.dll.mrp_calendar_derive
+    libplanner-1.dll.mrp_calendar_get_all_overridden_dates
+    libplanner-1.dll.mrp_calendar_get_children
+    libplanner-1.dll.mrp_calendar_get_day
+    libplanner-1.dll.mrp_calendar_get_default_day
+    libplanner-1.dll.mrp_calendar_get_name
+    libplanner-1.dll.mrp_calendar_get_overridden_days
+    libplanner-1.dll.mrp_calendar_get_parent
+    libplanner-1.dll.mrp_calendar_get_type
+    libplanner-1.dll.mrp_calendar_new
+    libplanner-1.dll.mrp_calendar_remove
+    libplanner-1.dll.mrp_calendar_reparent
+    libplanner-1.dll.mrp_calendar_set_days
+    libplanner-1.dll.mrp_calendar_set_default_days
+    libplanner-1.dll.mrp_calendar_set_name
+    libplanner-1.dll.mrp_constraint_get_type
+    libplanner-1.dll.mrp_day_add
+    libplanner-1.dll.mrp_day_get_all
+    libplanner-1.dll.mrp_day_get_description
+    libplanner-1.dll.mrp_day_get_id
+    libplanner-1.dll.mrp_day_get_name
+    libplanner-1.dll.mrp_day_get_nonwork
+    libplanner-1.dll.mrp_day_get_type
+    libplanner-1.dll.mrp_day_get_use_base
+    libplanner-1.dll.mrp_day_get_work
+    libplanner-1.dll.mrp_day_ref
+    libplanner-1.dll.mrp_day_remove
+    libplanner-1.dll.mrp_day_set_description
+    libplanner-1.dll.mrp_day_set_name
+    libplanner-1.dll.mrp_day_unref
+    libplanner-1.dll.mrp_error_quark
+    libplanner-1.dll.mrp_file_module_init
+    libplanner-1.dll.mrp_file_module_load_all
+    libplanner-1.dll.mrp_file_module_new
+    libplanner-1.dll.mrp_file_reader_read_string
+    libplanner-1.dll.mrp_file_writer_get_mime_type
+    libplanner-1.dll.mrp_file_writer_get_string
+    libplanner-1.dll.mrp_file_writer_write
+    libplanner-1.dll.mrp_group_assign
+    libplanner-1.dll.mrp_group_assignment_get_group
+    libplanner-1.dll.mrp_group_assignment_get_task
+    libplanner-1.dll.mrp_group_assignment_get_type
+    libplanner-1.dll.mrp_group_assignment_get_units
+    libplanner-1.dll.mrp_group_assignment_new
+    libplanner-1.dll.mrp_group_get_assignments
+    libplanner-1.dll.mrp_group_get_name
+    libplanner-1.dll.mrp_group_get_type
+    libplanner-1.dll.mrp_group_new
+    libplanner-1.dll.mrp_group_set_name
+    libplanner-1.dll.mrp_interval_copy
+    libplanner-1.dll.mrp_interval_get_absolute
+    libplanner-1.dll.mrp_interval_get_type
+    libplanner-1.dll.mrp_interval_new
+    libplanner-1.dll.mrp_interval_ref
+    libplanner-1.dll.mrp_interval_set_absolute
+    libplanner-1.dll.mrp_interval_unref
+    libplanner-1.dll.mrp_marshal_VOID__LONG_POINTER
+    libplanner-1.dll.mrp_marshal_VOID__OBJECT_INT
+    libplanner-1.dll.mrp_marshal_VOID__OBJECT_OBJECT_OBJECT_BOOLEAN
+    libplanner-1.dll.mrp_marshal_VOID__POINTER_POINTER
+    libplanner-1.dll.mrp_object_changed
+    libplanner-1.dll.mrp_object_get
+    libplanner-1.dll.mrp_object_get_id
+    libplanner-1.dll.mrp_object_get_project
+    libplanner-1.dll.mrp_object_get_properties
+    libplanner-1.dll.mrp_object_get_property
+    libplanner-1.dll.mrp_object_get_type
+    libplanner-1.dll.mrp_object_get_valist
+    libplanner-1.dll.mrp_object_removed
+    libplanner-1.dll.mrp_object_set
+    libplanner-1.dll.mrp_object_set_id
+    libplanner-1.dll.mrp_object_set_property
+    libplanner-1.dll.mrp_object_set_valist
+    libplanner-1.dll.mrp_param_spec_time
+    libplanner-1.dll.mrp_paths_get_dtd_dir
+    libplanner-1.dll.mrp_paths_get_file_modules_dir
+    libplanner-1.dll.mrp_paths_get_glade_dir
+    libplanner-1.dll.mrp_paths_get_image_dir
+    libplanner-1.dll.mrp_paths_get_locale_dir
+    libplanner-1.dll.mrp_paths_get_plugin_dir
+    libplanner-1.dll.mrp_paths_get_sql_dir
+    libplanner-1.dll.mrp_paths_get_storagemodule_dir
+    libplanner-1.dll.mrp_paths_get_stylesheet_dir
+    libplanner-1.dll.mrp_paths_get_ui_dir
+    libplanner-1.dll.mrp_project_add_group
+    libplanner-1.dll.mrp_project_add_property
+    libplanner-1.dll.mrp_project_add_qualification
+    libplanner-1.dll.mrp_project_add_resource
+    libplanner-1.dll.mrp_project_calculate_summary_duration
+    libplanner-1.dll.mrp_project_calculate_task_work
+    libplanner-1.dll.mrp_project_close
+    libplanner-1.dll.mrp_project_export
+    libplanner-1.dll.mrp_project_get_all_tasks
+    libplanner-1.dll.mrp_project_get_app
+    libplanner-1.dll.mrp_project_get_block_scheduling
+    libplanner-1.dll.mrp_project_get_calendar
+    libplanner-1.dll.mrp_project_get_calendar_day_by_id
+    libplanner-1.dll.mrp_project_get_group_by_name
+    libplanner-1.dll.mrp_project_get_groups
+    libplanner-1.dll.mrp_project_get_project_start
+    libplanner-1.dll.mrp_project_get_properties_from_type
+    libplanner-1.dll.mrp_project_get_property
+    libplanner-1.dll.mrp_project_get_qualifications
+    libplanner-1.dll.mrp_project_get_resource_by_name
+    libplanner-1.dll.mrp_project_get_resources
+    libplanner-1.dll.mrp_project_get_root_calendar
+    libplanner-1.dll.mrp_project_get_root_task
+    libplanner-1.dll.mrp_project_get_task_by_name
+    libplanner-1.dll.mrp_project_get_type
+    libplanner-1.dll.mrp_project_get_uri
+    libplanner-1.dll.mrp_project_has_property
+    libplanner-1.dll.mrp_project_insert_task
+    libplanner-1.dll.mrp_project_is_empty
+    libplanner-1.dll.mrp_project_load
+    libplanner-1.dll.mrp_project_load_from_xml
+    libplanner-1.dll.mrp_project_move_task
+    libplanner-1.dll.mrp_project_needs_saving
+    libplanner-1.dll.mrp_project_new
+    libplanner-1.dll.mrp_project_remove_group
+    libplanner-1.dll.mrp_project_remove_property
+    libplanner-1.dll.mrp_project_remove_qualification
+    libplanner-1.dll.mrp_project_remove_resource
+    libplanner-1.dll.mrp_project_remove_task
+    libplanner-1.dll.mrp_project_reschedule
+    libplanner-1.dll.mrp_project_save
+    libplanner-1.dll.mrp_project_save_as
+    libplanner-1.dll.mrp_project_save_to_xml
+    libplanner-1.dll.mrp_project_set_block_scheduling
+    libplanner-1.dll.mrp_project_set_project_start
+    libplanner-1.dll.mrp_project_set_uri
+    libplanner-1.dll.mrp_project_task_traverse
+    libplanner-1.dll.mrp_property_get_description
+    libplanner-1.dll.mrp_property_get_label
+    libplanner-1.dll.mrp_property_get_name
+    libplanner-1.dll.mrp_property_get_property_type
+    libplanner-1.dll.mrp_property_get_type
+    libplanner-1.dll.mrp_property_get_user_defined
+    libplanner-1.dll.mrp_property_new
+    libplanner-1.dll.mrp_property_ref
+    libplanner-1.dll.mrp_property_set_description
+    libplanner-1.dll.mrp_property_set_label
+    libplanner-1.dll.mrp_property_set_user_defined
+    libplanner-1.dll.mrp_property_type_as_string
+    libplanner-1.dll.mrp_property_type_get_type
+    libplanner-1.dll.mrp_property_unref
+    libplanner-1.dll.mrp_qualification_get_id
+    libplanner-1.dll.mrp_qualification_get_name
+    libplanner-1.dll.mrp_qualification_get_note
+    libplanner-1.dll.mrp_qualification_get_project
+    libplanner-1.dll.mrp_qualification_get_type
+    libplanner-1.dll.mrp_qualification_new
+    libplanner-1.dll.mrp_qualification_set_id
+    libplanner-1.dll.mrp_qualification_set_name
+    libplanner-1.dll.mrp_relation_get_lag
+    libplanner-1.dll.mrp_relation_get_predecessor
+    libplanner-1.dll.mrp_relation_get_relation_type
+    libplanner-1.dll.mrp_relation_get_successor
+    libplanner-1.dll.mrp_relation_get_type
+    libplanner-1.dll.mrp_relation_type_get_type
+    libplanner-1.dll.mrp_resource_assign
+    libplanner-1.dll.mrp_resource_compare
+    libplanner-1.dll.mrp_resource_get_assigned_tasks
+    libplanner-1.dll.mrp_resource_get_assignments
+    libplanner-1.dll.mrp_resource_get_calendar
+    libplanner-1.dll.mrp_resource_get_hasc
+    libplanner-1.dll.mrp_resource_get_hasit
+    libplanner-1.dll.mrp_resource_get_name
+    libplanner-1.dll.mrp_resource_get_note
+    libplanner-1.dll.mrp_resource_get_short_name
+    libplanner-1.dll.mrp_resource_get_type
+    libplanner-1.dll.mrp_resource_new
+    libplanner-1.dll.mrp_resource_set_calendar
+    libplanner-1.dll.mrp_resource_set_hasc
+    libplanner-1.dll.mrp_resource_set_hasit
+    libplanner-1.dll.mrp_resource_set_name
+    libplanner-1.dll.mrp_resource_set_short_name
+    libplanner-1.dll.mrp_storage_module_factory_create_module
+    libplanner-1.dll.mrp_storage_module_factory_get
+    libplanner-1.dll.mrp_storage_module_factory_get_type
+    libplanner-1.dll.mrp_storage_module_from_xml
+    libplanner-1.dll.mrp_storage_module_get_type
+    libplanner-1.dll.mrp_storage_module_load
+    libplanner-1.dll.mrp_storage_module_save
+    libplanner-1.dll.mrp_storage_module_to_xml
+    libplanner-1.dll.mrp_string_list_copy
+    libplanner-1.dll.mrp_string_list_free
+    libplanner-1.dll.mrp_task_add_predecessor
+    libplanner-1.dll.mrp_task_compare
+    libplanner-1.dll.mrp_task_get_assigned_resources
+    libplanner-1.dll.mrp_task_get_assignment
+    libplanner-1.dll.mrp_task_get_assignments
+    libplanner-1.dll.mrp_task_get_cost
+    libplanner-1.dll.mrp_task_get_critical
+    libplanner-1.dll.mrp_task_get_duration
+    libplanner-1.dll.mrp_task_get_finish
+    libplanner-1.dll.mrp_task_get_first_child
+    libplanner-1.dll.mrp_task_get_group_assignment
+    libplanner-1.dll.mrp_task_get_id
+    libplanner-1.dll.mrp_task_get_latest_finish
+    libplanner-1.dll.mrp_task_get_latest_start
+    libplanner-1.dll.mrp_task_get_n_children
+    libplanner-1.dll.mrp_task_get_name
+    libplanner-1.dll.mrp_task_get_next_sibling
+    libplanner-1.dll.mrp_task_get_note
+    libplanner-1.dll.mrp_task_get_nres
+    libplanner-1.dll.mrp_task_get_nth_child
+    libplanner-1.dll.mrp_task_get_parent
+    libplanner-1.dll.mrp_task_get_percent_complete
+    libplanner-1.dll.mrp_task_get_position
+    libplanner-1.dll.mrp_task_get_predecessor_relation
+    libplanner-1.dll.mrp_task_get_predecessor_relations
+    libplanner-1.dll.mrp_task_get_prev_sibling
+    libplanner-1.dll.mrp_task_get_priority
+    libplanner-1.dll.mrp_task_get_probability
+    libplanner-1.dll.mrp_task_get_relation
+    libplanner-1.dll.mrp_task_get_sched
+    libplanner-1.dll.mrp_task_get_start
+    libplanner-1.dll.mrp_task_get_successor_relation
+    libplanner-1.dll.mrp_task_get_successor_relations
+    libplanner-1.dll.mrp_task_get_task_type
+    libplanner-1.dll.mrp_task_get_task_virtual_type
+    libplanner-1.dll.mrp_task_get_type
+    libplanner-1.dll.mrp_task_get_unit_ivals
+    libplanner-1.dll.mrp_task_get_work
+    libplanner-1.dll.mrp_task_get_work_start
+    libplanner-1.dll.mrp_task_has_relation
+    libplanner-1.dll.mrp_task_has_relation_to
+    libplanner-1.dll.mrp_task_invalidate_cost
+    libplanner-1.dll.mrp_task_manager_calculate_summary_duration
+    libplanner-1.dll.mrp_task_manager_calculate_task_work
+    libplanner-1.dll.mrp_task_manager_check_move
+    libplanner-1.dll.mrp_task_manager_check_predecessor
+    libplanner-1.dll.mrp_task_manager_dump_task_list
+    libplanner-1.dll.mrp_task_manager_dump_task_tree
+    libplanner-1.dll.mrp_task_manager_get_all_tasks
+    libplanner-1.dll.mrp_task_manager_get_block_scheduling
+    libplanner-1.dll.mrp_task_manager_get_root
+    libplanner-1.dll.mrp_task_manager_get_type
+    libplanner-1.dll.mrp_task_manager_insert_task
+    libplanner-1.dll.mrp_task_manager_move_task
+    libplanner-1.dll.mrp_task_manager_new
+    libplanner-1.dll.mrp_task_manager_rebuild
+    libplanner-1.dll.mrp_task_manager_recalc
+    libplanner-1.dll.mrp_task_manager_remove_task
+    libplanner-1.dll.mrp_task_manager_set_block_scheduling
+    libplanner-1.dll.mrp_task_manager_set_root
+    libplanner-1.dll.mrp_task_manager_traverse
+    libplanner-1.dll.mrp_task_new
+    libplanner-1.dll.mrp_task_remove_predecessor
+    libplanner-1.dll.mrp_task_reset_constraint
+    libplanner-1.dll.mrp_task_sched_get_type
+    libplanner-1.dll.mrp_task_set_id
+    libplanner-1.dll.mrp_task_set_name
+    libplanner-1.dll.mrp_task_set_probability
+    libplanner-1.dll.mrp_task_set_task_type
+    libplanner-1.dll.mrp_task_set_task_virtual_type
+    libplanner-1.dll.mrp_task_set_unit_ivals
+    libplanner-1.dll.mrp_task_type_get_type
+    libplanner-1.dll.mrp_task_type_get_virtual_type
+    libplanner-1.dll.mrp_time2_add_days
+    libplanner-1.dll.mrp_time2_add_hours
+    libplanner-1.dll.mrp_time2_add_minutes
+    libplanner-1.dll.mrp_time2_add_months
+    libplanner-1.dll.mrp_time2_add_seconds
+    libplanner-1.dll.mrp_time2_add_years
+    libplanner-1.dll.mrp_time2_align_next
+    libplanner-1.dll.mrp_time2_align_prev
+    libplanner-1.dll.mrp_time2_clear
+    libplanner-1.dll.mrp_time2_compare
+    libplanner-1.dll.mrp_time2_copy
+    libplanner-1.dll.mrp_time2_debug_print
+    libplanner-1.dll.mrp_time2_free
+    libplanner-1.dll.mrp_time2_get_date
+    libplanner-1.dll.mrp_time2_get_day_name
+    libplanner-1.dll.mrp_time2_get_epoch
+    libplanner-1.dll.mrp_time2_get_month_initial
+    libplanner-1.dll.mrp_time2_get_month_name
+    libplanner-1.dll.mrp_time2_get_time
+    libplanner-1.dll.mrp_time2_get_week_number
+    libplanner-1.dll.mrp_time2_new
+    libplanner-1.dll.mrp_time2_set_date
+    libplanner-1.dll.mrp_time2_set_epoch
+    libplanner-1.dll.mrp_time2_set_from_string
+    libplanner-1.dll.mrp_time2_set_time
+    libplanner-1.dll.mrp_time2_subtract_days
+    libplanner-1.dll.mrp_time2_subtract_hours
+    libplanner-1.dll.mrp_time2_subtract_minutes
+    libplanner-1.dll.mrp_time2_subtract_months
+    libplanner-1.dll.mrp_time2_subtract_seconds
+    libplanner-1.dll.mrp_time2_subtract_years
+    libplanner-1.dll.mrp_time2_to_string
+    libplanner-1.dll.mrp_time_align_day
+    libplanner-1.dll.mrp_time_align_next
+    libplanner-1.dll.mrp_time_align_prev
+    libplanner-1.dll.mrp_time_compose
+    libplanner-1.dll.mrp_time_current_time
+    libplanner-1.dll.mrp_time_day_name
+    libplanner-1.dll.mrp_time_day_of_week
+    libplanner-1.dll.mrp_time_debug_print
+    libplanner-1.dll.mrp_time_decompose
+    libplanner-1.dll.mrp_time_format
+    libplanner-1.dll.mrp_time_format_locale
+    libplanner-1.dll.mrp_time_from_string
+    libplanner-1.dll.mrp_time_from_tm
+    libplanner-1.dll.mrp_time_month_name
+    libplanner-1.dll.mrp_time_month_name_initial
+    libplanner-1.dll.mrp_time_to_string
+    libplanner-1.dll.mrp_time_week_number
+    libplanner-1.dll.project_do_save
+    libplanner-1.dll.renewProject
+    libplanner-1.dll.resourceNotEnough
+    libplanner-1.dll.sortTasklistsByFinishTime
+    libplanner-1.dll.sortTasklistsByStartTime
+    libplanner-1.dll.sortTasklistsFunction
+    libplanner-1.dll.sortTasklistsFunctionByFinish
+    libplanner-1.dll.task_manager_build_dependency_graph_for_node
+    libplanner-1.dll.task_remove_assignments
+    libplanner-1.dll.theTaskResourceNumber
+    libplanner-1.dll.totalduration
